@@ -1,0 +1,1 @@
+"use strict";var getFobinacciAt=function t(c){return c<=2?1:t(c-1)+t(c-2)};console.log(getFobinacciAt(0));

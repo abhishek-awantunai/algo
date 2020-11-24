@@ -1,0 +1,1 @@
+"use strict";function logNumber(){console.log(1),setTimeout(function(){return console.log(2)},1e3),setTimeout(function(){return console.log(3)},0),console.log(4)}logNumber();

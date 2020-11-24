@@ -1,0 +1,1 @@
+"use strict";function _classCallCheck(a,s){if(!(a instanceof s))throw new TypeError("Cannot call a class as a function")}var Node=function a(s){_classCallCheck(this,a),this.value=s,this.next=null},Stack=function a(){_classCallCheck(this,a)};

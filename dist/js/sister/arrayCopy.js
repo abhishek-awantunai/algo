@@ -1,0 +1,1 @@
+"use strict";var list1=[1,2,3,4,5],list2=JSON.parse(JSON.stringify(list1));list1.push(5,6,8),console.log(list1),console.log(list2);

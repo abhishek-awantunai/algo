@@ -1,0 +1,1 @@
+"use strict";var reverse=function(r){for(var e=(""+r).split(""),t=0,o=e.length-1;o>Math.floor(e.length/2)-1;o--){var n=e[o],a=e[t];e[o]=a,e[t]=n,t++}r=0<r?parseInt(e.join("")):-1*parseInt(e.join(""));return r>Math.pow(2,31)||r<-Math.pow(2,31)?0:r};console.log(reverse(321));

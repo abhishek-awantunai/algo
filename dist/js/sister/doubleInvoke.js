@@ -1,0 +1,1 @@
+"use strict";function totalSum(n,t){return t?n+t:function(t){return n+t}}console.log(totalSum(5)());

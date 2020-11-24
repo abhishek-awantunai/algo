@@ -1,0 +1,1 @@
+"use strict";var city="London";function caaa(o,c,n){console.log(o,c,n)}console.log(city),console.log(window),caaa(1,2,3);

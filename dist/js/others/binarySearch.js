@@ -1,0 +1,1 @@
+"use strict";var binarySearch=function(r,n){for(var o=r.sort(function(r,n){return r-n}),a=0,t=o.length-1,e=Math.floor((a+t)/2);o[e]!==n&&a<=t;)n<o[e]?t=e-1:a=e+1,e=Math.floor((a+t)/2);return o[e]===n?e:-1},arr=[12,3,4,5,55,53,233,43,433,34,23],num=23;console.log(binarySearch(arr,num));

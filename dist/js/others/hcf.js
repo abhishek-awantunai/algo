@@ -1,0 +1,1 @@
+"use strict";var findHCFofNumbers=function(r,n){for(var f=r;0<f;){if(r%f==0&&n%f==0)return f;f--}return null};console.log(findHCFofNumbers(15,30));

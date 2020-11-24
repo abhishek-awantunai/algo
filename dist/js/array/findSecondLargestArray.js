@@ -1,0 +1,1 @@
+"use strict";var arr=[1121,2,47,144,3,684],findSecondLargest=function(r){for(var n=0,e=0,o=0;o<r.length;o++)r[o]>n?(e=n,n=r[o]):r[o]>e&&(e=r[o]);return n};console.log(findSecondLargest(arr));

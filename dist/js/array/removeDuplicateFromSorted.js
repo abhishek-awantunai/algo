@@ -1,0 +1,1 @@
+"use strict";var removeDuplicates=function(e){if(!e.length)return 0;for(var n=0,o=0;o<e.length;o++)e[o]!==e[n]&&(e[++n]=e[o]);return n+1},nums=[0,0,1,1,1,2,2,3,3,4];console.log(removeDuplicates(nums)),console.log(nums);

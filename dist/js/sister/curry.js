@@ -1,0 +1,1 @@
+"use strict";function apple(o){return function(n){return function(l){return o*n*l}}}var val=apple(5)(4)(3);console.log(val),console.log(apple()()),console.log(apple()()());

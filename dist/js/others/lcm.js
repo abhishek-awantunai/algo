@@ -1,0 +1,1 @@
+"use strict";function lcm_two_numbers(t,n){return"number"==typeof t&&"number"==typeof n&&(t&&n?Math.abs(t*n/gcd_two_numbers(t,n)):0)}function gcd_two_numbers(t,n){for(t=Math.abs(t),n=Math.abs(n);n;){var r=n;n=t%n,t=r}return t}console.log(lcm_two_numbers(8,12));

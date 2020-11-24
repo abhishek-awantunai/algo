@@ -1,0 +1,1 @@
+"use strict";var plusOne=function(t){for(var n=0,s=t.length-1;0<=s;s--)s===t.length-1?t[s]+=1:t[s]+=n,n=Math.floor(t[s]/10),t[s]=t[s]%10;return 0<n&&t.unshift(n),t},digits=[9,9,9,9];console.log(plusOne(digits));

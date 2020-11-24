@@ -1,0 +1,1 @@
+"use strict";var a={},b={name:"b"},c={name:"c"};a[b]=200,a[c]=400,console.log(a[b]);

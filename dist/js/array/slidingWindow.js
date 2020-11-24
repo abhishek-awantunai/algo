@@ -1,0 +1,1 @@
+"use strict";function maxSumArray(r,a){if(a>r.length)return 0;for(var n=0,e=0,t=0,o=0;o<a;o++)t+=r[o];for(;n<r.length-a+1;){var u=t-r[n]+r[n+a-1];t<u&&(t=u,e=n),n++}return{index:[e,e+a-1],max:t}}var arr=[1,2,3,4,5,6,7,7,,8,8,8,5,4,5,6,9,4,5,5,7];console.log(maxSumArray(arr,4));

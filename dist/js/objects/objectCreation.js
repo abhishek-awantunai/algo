@@ -1,0 +1,1 @@
+"use strict";var obj1={property1:"apple",property2:"banana",property3:"guava",method1:function(){return console.log(this.property1),this.property2}};function car(o,r){return{color:o,model:r}}console.log(obj1.method1());var bmw=car("red","BMW");function Circle(o){this.radius=o}console.log(bmw);var cir=new Circle(5);console.log(cir);

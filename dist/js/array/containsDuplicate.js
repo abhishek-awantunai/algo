@@ -1,0 +1,1 @@
+"use strict";var containdsDuplicate=function(n){return n.length-new Set(n).size!=0},nums=[1,2,3,4,5,43,6,2,4,4];console.log(containdsDuplicate(nums));

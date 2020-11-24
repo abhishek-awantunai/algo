@@ -1,0 +1,1 @@
+"use strict";var tripleAddFunction=function(r){return function(t){return function(n){return r+t+n}}};console.log(tripleAddFunction(5)(6)(7));

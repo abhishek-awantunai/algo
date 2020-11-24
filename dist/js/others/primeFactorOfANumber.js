@@ -1,0 +1,1 @@
+"use strict";var primefactorOfANumber=function(r){console.time("Time this");for(var e=isPrime(r)?[1,r]:[1],i=r-1;1<i;)r%i==0&&e.push(i),i--;return console.timeEnd("Time this"),e},isPrime=function(r){for(var e=r-1;1<e;){if(r%e==0)return!1;e--}return!0};console.log(primefactorOfANumber(999));

@@ -1,0 +1,1 @@
+"use strict";function isPalindrome(e){return(e=e.replace(/[^a-zA-Z0-9]+/gi,"").toLowerCase()).split("").reverse().join("")===e}console.log(isPalindrome("0P"));

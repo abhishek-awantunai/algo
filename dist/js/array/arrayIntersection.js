@@ -1,0 +1,1 @@
+"use strict";var nums1=[4,9,5],nums2=[9,4,9,8,4];console.log(intersect(nums1,nums2));var intersect=function(n,s){var e=[];return n.forEach(function(n){-1<s.indexOf(n)&&e.push(s.splice(s.indexOf(n),1))}),e};

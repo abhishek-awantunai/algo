@@ -1,0 +1,1 @@
+"use strict";var maxProfit=function(r){for(var o=0,t=0;t<r.length-1;t++)r[t]<r[t+1]&&(o+=r[t+1]-r[t]);return o};console.log(maxProfit([7,1,5,3,6,4]));

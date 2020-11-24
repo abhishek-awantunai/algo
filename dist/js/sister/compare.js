@@ -1,0 +1,1 @@
+"use strict";console.log(!1),console.log(!1),console.log(!1),console.log(!1),console.log(!1),console.log(!1),console.log(!1),console.log("=================================="),console.log(!0),console.log(!0),console.log(!0),console.log(!0),console.log(!0),console.log(!0),console.log(!0),console.log(1.7==(5/3).toPrecision(2)),console.log(1.7===Number((5/3).toPrecision(2)));

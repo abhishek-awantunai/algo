@@ -1,0 +1,1 @@
+"use strict";var num=50;function logNumber(){console.log(void 0)}logNumber();

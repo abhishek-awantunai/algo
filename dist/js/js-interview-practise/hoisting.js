@@ -1,0 +1,1 @@
+"use strict";console.log(color);var color="red";function apple(n){return function(r){return function(o){return n+r+o}}}console.log(color),apple(1)(2)(3);

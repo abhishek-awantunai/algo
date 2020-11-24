@@ -1,0 +1,1 @@
+"use strict";var isAPrimeNumber=function(r){for(var e=r-1;1<e;){if(r%e==0)return!1;e--}return!0};console.log(isAPrimeNumber(187));

@@ -1,0 +1,1 @@
+"use strict";var reverseInt=function(e){return-1<e?Number((""+e).split("").reverse().join("")):-1*Number((""+-1*e).split("").reverse().join(""))};console.log(reverseInt(987));

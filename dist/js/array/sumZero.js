@@ -1,0 +1,1 @@
+"use strict";var sumZero=function(r){for(var o=0,n=(r=r.sort(function(r,o){return r-o})).length-1,t=(r[o],r[n],0),u=[];o<n;)0<(t=r[o]+r[n])?n--:t<0?o++:(u.push([r[o],r[n]]),o++,n--);return u},arr=[-1,-23,-4,-5,-34,-5,-24,-23,-13,-4,23,23,4,3,4,30,32,2,13,98,23,52,12,53];console.log(sumZero(arr,3));

@@ -1,0 +1,1 @@
+"use strict";console.log(color);var color="blue";function getSum(o,e){return o+e}console.log(color),console.log(getSum(2,3));var getExpSum=function(o,e){return o+e};function getTotal(){for(var o=0,e=0;e<10;e++)o+=2*e;return o}console.log(getExpSum(2,3)),console.log(getTotal());

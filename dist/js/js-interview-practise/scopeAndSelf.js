@@ -1,0 +1,1 @@
+"use strict";var kkk="sdfs",mycar={color:"blue",logColor:function(){var o=this;console.log(this.color),console.log(o.color),function(){console.log("IFFE : "+this),console.log("IFFE : "+o.color)}()}};console.log(window.kkk),mycar.logColor();

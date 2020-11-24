@@ -1,0 +1,1 @@
+"use strict";Array.prototype.mfilter=function(r){for(var t=[],e=0;e<this.length;e++)r(this[e],e,this)&&t.push(this[e]);return t};var returnedArr=[1,2,3,4,5,6].mfilter(function(r,t,e){return r%2==0});console.log(returnedArr);

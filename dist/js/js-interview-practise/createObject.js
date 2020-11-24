@@ -1,0 +1,1 @@
+"use strict";var obj1=new Object;obj1.lala="lalaji",console.log(obj1);var obj2={name:"Abhishek Kumar"};function Car(o,r,e){this.color=o,this.brand=r,this.year=e}console.log(obj2),Car.prototype.getColor=function(){return this.color};var bmw=new Car("red","bmw",2011);console.log(bmw.getColor());

@@ -1,0 +1,1 @@
+"use strict";var obj={name:"Abhishek",getBio:function(){console.log(this)}},abhiData={name:"Abhishek",age:32,color:"bht kala"};obj.getBio(12,13),console.log(obj.getBio.call(abhiData,14,15)),console.log(obj.getBio.apply(abhiData,[14,15]));var newBindedGetBio=obj.getBio.bind(abhiData,14,15);console.log(newBindedGetBio),console.log(newBindedGetBio());

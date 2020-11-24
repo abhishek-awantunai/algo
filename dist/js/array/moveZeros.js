@@ -1,0 +1,1 @@
+"use strict";var moveZeroes=function(e){for(var r={},o=0;o<e.length;o++)0===e[o]&&(r[o]=0);var s,n=0;for(s in r)e.splice(parseInt(s)-n,1),n++;for(;0<n;)e.push(0),n--;return e},nums=[0,1,0,3,12];console.log(moveZeroes(nums));

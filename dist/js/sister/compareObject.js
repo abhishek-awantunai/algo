@@ -1,0 +1,1 @@
+"use strict";var user1={name:"Jordan",age:21},user2={name:"Jordan",age:21},user3=user1;user3.name="sdfsdfsd",console.log(user1==user3),console.log(user1===user3),console.log(user1===user2),console.log(user1==user2),console.log(JSON.stringify(user1)===JSON.stringify(user2)),console.log(JSON.stringify(user1)===JSON.stringify(user3));

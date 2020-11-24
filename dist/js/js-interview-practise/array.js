@@ -1,0 +1,1 @@
+"use strict";var arr1=[],arr2=new Array,arr3=new Array(1,2,"three",4,"five"),arr4=new Array([1,2,3,4,5]),arr5=new Array(10);console.log("arr1 ",arr1),console.log("arr2 ",arr2),console.log("arr3 ",arr3),console.log("arr4 ",arr4),console.log("arr4 ",arr5);

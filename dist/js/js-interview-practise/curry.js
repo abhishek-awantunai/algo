@@ -1,0 +1,1 @@
+"use strict";var getSpeed=function(e){return function(n){return e/n}},londonDistance=getSpeed(400);console.log(Math.floor(londonDistance(15)));

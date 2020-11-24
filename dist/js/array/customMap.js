@@ -1,0 +1,1 @@
+"use strict";Array.prototype.myCustomMap=function(r){for(var t=[],o=0;o<this.length;o++)t.push(r(this[o],o,this));return t};var arr=[1,2,3,4,5];console.log(arr.myCustomMap(function(r){return r+1})),console.log(arr);

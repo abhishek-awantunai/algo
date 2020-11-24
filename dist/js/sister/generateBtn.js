@@ -1,0 +1,1 @@
+"use strict";function generateButtons(){for(var t=0;t<20;t++)document.querySelector(".checkButtons").innerHTML+='<button onClick="alertIndexOfButton('.concat(t,')">').concat(t+1,"</button>")}function alertIndexOfButton(t){alert(t)}generateButtons();

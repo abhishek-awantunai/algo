@@ -1,0 +1,1 @@
+"use strict";var fizBuzz=function(z){var u="";return z%3==0&&(u+="fizz"),z%5==0&&(u+="buzz"),u};console.log(fizBuzz(545));
