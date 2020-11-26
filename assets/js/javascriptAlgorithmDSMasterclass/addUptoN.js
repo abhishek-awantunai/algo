@@ -16,19 +16,18 @@ const addUptoUsingFormula = (n) => {
   return (n * (n + 1)) / 2;
 };
 
-const setValue = (id, val) => {
-  let el = document.getElementById(id);
+const setValue = (val) => {
+  let el = document.getElementById("result");
   el.innerText = val;
 };
 
 let t1 = performance.now();
-setValue("result-1", addUptoUsingForLoop(1000));
+setValue(addUptoUsingForLoop(1000));
 let t2 = performance.now();
 console.log(t2 - t1 + " seconds elapsed");
 
 let t3 = performance.now();
-
-setValue("result-2", addUptoUsingFormula(1000));
+console.log(addUptoUsingFormula(1000));
 let t4 = performance.now();
 
 console.log(t4 - t3 + " seconds elapsed");

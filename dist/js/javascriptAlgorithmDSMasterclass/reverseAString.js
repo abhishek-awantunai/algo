@@ -1,0 +1,1 @@
+"use strict";var reverseStringWithInbuiltFunction=function(e){return e.split("").reverse().join("")},reverseStringWithForLoop=function(e){for(var r="",t=e.length-1;0<=t;t--)r+=e[t];return r},reverseStringWithRecursion=function e(r){return r.length<1?r:r.slice(r.length-1,r.length)+e(r.slice(0,r.length-1))};reverseStringWithRecursion("this is a simple matter is the");
