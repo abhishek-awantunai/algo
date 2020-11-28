@@ -1,8 +1,25 @@
 /**
   If a function is a method function [ wo function jo object ke key ke andar hota hai  ] then only 
-  `this` inside it will refer to the object associated with it or of which object this method is 
-  a part of and in all other cases this refers to window object in normal mode and undefined in 
-  Strict mode.
+  `this` inside it will refer to the object associated with it and in all other cases this refers to window object in normal mode and undefined in Strict mode.
+*/
+
+/*
+  When a function is called with “new” keyword, it is known as constructor function. And the value of “this” refers to the newly created instance.
+
+    function Person(fn, ln) {
+    this.first_name = fn;
+    this.last_name = ln;
+    this.displayName = function() {
+        console.log(`Name: ${this.first_name} ${this.last_name}`);
+        console.log(this);
+    }
+    }
+    let person = new Person("Tim", "Horton");
+    person.displayName();  
+    let person2 = new Person("Mary", " Poppins");
+    person2.displayName();
+
+
 */
 
 // https://medium.com/better-programming/understanding-the-this-keyword-in-javascript-cb76d4c7c5e8

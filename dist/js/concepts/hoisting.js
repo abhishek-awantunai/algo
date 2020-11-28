@@ -1,0 +1,1 @@
+"use strict";var x=10;function y(){}y(),console.log(x);var a=10;function b(){}b(),console.log(a);var c=10;function d(){c=100}d(),console.log(c);

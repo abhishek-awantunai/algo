@@ -1,5 +1,7 @@
 const arr = [];
 let total = 0;
+
+// nakli array banaya ja rha 1 to 100 jisme 53 nahi  hoga
 for (let i = 1; i <= 100; i++) {
   if (i !== 53) arr.push(i);
   total += i;

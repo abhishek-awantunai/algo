@@ -1,0 +1,1 @@
+"use strict";function Person(n){this.setName=function(e){n=e},this.getName=function(){return n}}var ramesh=new Person("ramesh");console.log(ramesh.getName()),console.log(ramesh.name);

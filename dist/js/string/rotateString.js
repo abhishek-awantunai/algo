@@ -1,0 +1,1 @@
+"use strict";var rotateClockWise=function(e,t){return e.slice(e.length-t,e.length)+e.slice(0,e.length-t)},rotateAntiClockWise=function(e,t){return e.slice(t,e.length)+e.slice(0,t)};console.log(rotateClockWise("applewa",2)),console.log(rotateAntiClockWise("applewa",2));

@@ -1,3 +1,6 @@
+// Closures are basically, the inner function having access to the variables in the outer function scope, even after the outer function has returned.
+
+
 // Closures - Inner function which users variables from outer function or scope
 
 // Closures are functions with preserve data
@@ -20,5 +23,15 @@ function outerFunction(param1) {
 
   console.dir(innerFunction);
 }
+
+var add = (function () {
+  var counter = 0;
+  return function () { counter++; return counter; }
+})();
+
+
+add();
+add();
+console.dir(add);
 
 outerFunction("param two");

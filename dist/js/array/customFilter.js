@@ -1,1 +1,1 @@
-"use strict";Array.prototype.mfilter=function(r){for(var t=[],e=0;e<this.length;e++)r(this[e],e,this)&&t.push(this[e]);return t};var returnedArr=[1,2,3,4,5,6].mfilter(function(r,t,e){return r%2==0});console.log(returnedArr);
+"use strict";var arr=[1,2,3,4,5,6,7,8,9,10];Array.prototype.myCustomFilter=function(r){for(var t=[],e=0;e<this.length;e++)r(this[e])&&t.push(this[e]);return t};var filteredArr=arr.filter(function(r){return r%2==0}),customFilteredArr=arr.myCustomFilter(function(r){return r%2==0});console.log(arr),console.log(filteredArr),console.log(customFilteredArr);
