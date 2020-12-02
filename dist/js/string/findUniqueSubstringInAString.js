@@ -1,0 +1,1 @@
+"use strict";var str="sdjdsksksksdfd",findLargestUniqueSubString=function(n){for(var r={},s=0,t=0,e=0;e<n.length;e++){var i=r[n[e]];console.log(e,n[e],i,r),null!=i&&s<=i?s=i+1:t=Math.max(t,e-s+1),r[n[e]]=e}return t};console.log(findLargestUniqueSubString(str));

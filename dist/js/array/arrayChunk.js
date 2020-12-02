@@ -1,1 +1,1 @@
-"use strict";var convertArrayToChunk=function(){return[]};console.log(convertArrayToChunk([1,2,34,2,22,4,32,,23,21],2));
+"use strict";var convertArrayToChunk=function(r,o){for(var n=[],t=r.length%2==0?Math.floor(r.length/o):Math.floor(r.length/o)+1,h=0;h<t;h++){for(var e=[],a=0;a<o;a++)e.push(r[h*o+a]);n.push(e)}return n};console.log(convertArrayToChunk([1,2,34,2,22,4,32,17,23,21,12],2));

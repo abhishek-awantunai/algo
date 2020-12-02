@@ -1,0 +1,1 @@
+"use strict";var arr=[1,2,3,4,-2,2,4,2,2,3,5,6,3,6,3];Array.prototype.removeDuplicates=function(){Array.prototype.sort.call(this,function(r,t){return r-t});for(var r=0,t=1;t<this.length;t++)this[r]!==this[t]&&(this[++r]=this[t]);return this.slice(0,r+1)},console.log(arr.removeDuplicates());

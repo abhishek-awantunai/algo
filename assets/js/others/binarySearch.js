@@ -1,3 +1,5 @@
+// O(Log(n))
+
 const binarySearch = (arr, num) => {
   const sorted = arr.sort((a, b) => {
     return a - b;

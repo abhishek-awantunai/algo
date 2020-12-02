@@ -1,0 +1,1 @@
+"use strict";var str="jfhjskfsjdkfdjhfskfhskhfshfsd",findWordInAStristrng=function(r,s){for(var f=0,n=0;n<r.length;n++)for(var t=0;t<s.length&&r[n+t]===s[t];t++)t===s.length-1&&f++;return f};console.log(findWordInAStristrng(str,"skf"));

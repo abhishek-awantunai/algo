@@ -1,0 +1,1 @@
+"use strict";var bubbleSort=function(r){for(var o=0;o<r.length;o++)for(var t,e=0;e<r.length;e++)r[e]>r[e+1]&&(t=r[e],r[e]=r[e+1],r[e+1]=t);return r},arr=[1,13,5,23,4,34,422];console.log(bubbleSort(arr));

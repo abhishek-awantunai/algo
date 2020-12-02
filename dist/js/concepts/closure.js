@@ -1,0 +1,1 @@
+"use strict";var trackMyCall=function(){var l=0;return function(){return++l}}();console.log(trackMyCall()),console.log(trackMyCall()),console.log(trackMyCall()),console.log(trackMyCall()),console.dir(trackMyCall);

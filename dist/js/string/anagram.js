@@ -1,1 +1,1 @@
-"use strict";var isAnagram=function(){};
+"use strict";var isAnagram=function(r,a){if(r.length!==a.length)return!1;for(var n={},e={},t=0;t<r.length;t++){var s=r[t];n[s]=(n[s]||0)+1}for(var l,g=0;g<a.length;g++){var i=a[g];e[i]=(e[i]||0)+1}for(l in n)if(n[l]!==e[l])return!1;return!0};console.log(isAnagram("appleass","peplassa"));

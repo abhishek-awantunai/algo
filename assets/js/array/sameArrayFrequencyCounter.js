@@ -1,3 +1,36 @@
+
+// O(n)
+const checkIfArrayAndSquareAreSame = (arr1, arr2) => {
+  const frequencyOfArray1 = {};
+  const frequencyOfArray2 = {};
+
+  if (arr1.length !== arr2.length) return false;
+
+  // O(n)
+  for (let val of arr1) {
+    frequencyOfArray1[val] = (frequencyOfArray1[val] || 0) + 1;
+  }
+
+  // O(n)
+  for (let val of arr2) {
+    frequencyOfArray2[val] = (frequencyOfArray2[val] || 0) + 1;
+  }
+
+  // O(n)
+  for (let key in frequencyOfArray1) {
+    if (frequencyOfArray1[key] !== frequencyOfArray2[key * key]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+
+console.log(checkIfArrayAndSquareAreSame(arr1, arr2));
+
+
+
+
 // Same array Frequency Counter
 
 const sameArrayFrequencyCounter = (arr1, arr2) => {
