@@ -5,3 +5,5 @@ const data2 = [].filter.call(data1, function (element, index) {
 });
 
 console.log(data2); // ["a", "t","t","a","W","a","l","a","M","u","m"]
+
+

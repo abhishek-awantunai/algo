@@ -1,7 +1,7 @@
 class ListNode {
   value;
   next;
-  constructor (value) {
+  constructor(value) {
     this.value = value;
     this.next = null;
   }
@@ -51,9 +51,6 @@ const addTwoNumbers = (l1, l2) => {
 };
 
 console.log(addTwoNumbers(list1, list2));
-
-
-
 
 // class Node {
 //   constructor(value) {

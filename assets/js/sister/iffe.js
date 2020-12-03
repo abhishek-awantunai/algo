@@ -10,7 +10,10 @@
   return num * 2;
 })(4);
 
-a = 20; // this will throw refrence error as it's restricted because we can't create a GLOBAL varibale
+a = 20;
+
+// creation of global variable is restricted in strict mode
+// this will throw refrence error as it's restricted because we can't create a GLOBAL varibale
 //  in STRICT mode and any variable declared without var is a Global Variable
 console.log(a);
 var a = 10;

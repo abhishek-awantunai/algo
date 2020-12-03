@@ -1,4 +1,8 @@
 console.log(7 === "7"); // false
+console.log(1 == true); // true
+console.log(" 1 " == true); // true
+console.log("1" == true); // true
+console.log("2" == true); // false
 console.log(7 == true); // false
 console.log(7 === true); // false
 console.log(true == 7); // false

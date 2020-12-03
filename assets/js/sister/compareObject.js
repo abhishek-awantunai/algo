@@ -1,5 +1,8 @@
-// Two objects are never equal to eacch other in JAVASCRIPT because we always store refrences
-// of that objects in the variable i.e in user1 and user2
+/*
+  
+  Two objects are never equal to each other in JAVASCRIPT because we always store refrences of that objects in the variable i.e in user1 and user2
+
+*/
 
 const user1 = {
   name: "Jordan",

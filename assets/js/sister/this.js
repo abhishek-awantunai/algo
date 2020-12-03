@@ -19,6 +19,7 @@
     let person2 = new Person("Mary", " Poppins");
     person2.displayName();
 
+    in arrow functions are completly free functions i.e nothing is binded like this and argunents 
 
 */
 

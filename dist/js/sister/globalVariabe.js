@@ -1,1 +1,1 @@
-"use strict";console.log(x),console.log(y),console.log(y),console.log(x);
+"use strict";!function(){y=200;console.log(200),console.log(y)}(),console.log(y),console.log(x);

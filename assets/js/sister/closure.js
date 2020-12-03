@@ -1,9 +1,10 @@
-// Closures are basically, the inner function having access to the variables in the outer function scope, even after the outer function has returned.
+/* 
 
+Closures are basically, the inner function having access to the variables in the outer function scope, even after the outer function has returned.
 
-// Closures - Inner function which users variables from outer function or scope
+Closures are functions with preserve data
 
-// Closures are functions with preserve data
+*/
 
 const globalVariable = "Kattapa";
 

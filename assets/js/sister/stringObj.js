@@ -13,4 +13,4 @@ var person1 = {
 var person2 = person1;
 person2.name = "Kyle";
 
-console.log(person1); // { name: "Alex", age: 30 }
+console.log(person1); // { name: "Kyle", age: 30 }
