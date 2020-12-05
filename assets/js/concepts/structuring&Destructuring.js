@@ -30,6 +30,8 @@ let {
 
 /*
 
+Structuring
+
 let a = "a", b = "b";             // The variables
 let obj = {c: "c"};               // The existing object
 Object.assign(obj, {a, b});       // "Structuring" assignment, sort of

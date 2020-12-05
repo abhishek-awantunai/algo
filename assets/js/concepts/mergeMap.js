@@ -5,8 +5,8 @@ Mergemap :-
 const input1 = document.getElementById('input1');
 const input2 = document.getElementById('input2');
 
-let obs1 = Observable.fromEvent(input1, 'input);
-let obs2 = Observable.fromEvent(input2, 'input);
+let obs1 = Observable.fromEvent(input1, 'input');
+let obs2 = Observable.fromEvent(input2, 'input');
 
 obs1.mergeMap(
   event1 => {

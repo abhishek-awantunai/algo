@@ -10,7 +10,7 @@
 
   Observer :-
   The observer is there to execute some code whenever we recieve a value or error or completion notifier.
-  So observer is the part handling the incoming data. So we need observer to coonect to an observable.
+  So observer is the part handling the incoming data. So we need observer to connect to an observable.
 
   Observer implements three methods :
 

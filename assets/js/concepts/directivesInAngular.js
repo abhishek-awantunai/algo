@@ -2,6 +2,8 @@
 
 Directives :-
 
+Directives are responsible for instructing Angular about how to transform the DOM when rendering a template.
+
 We use directives to modify a DOM :-
 - Two types:
   a) Structural
