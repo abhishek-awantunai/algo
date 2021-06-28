@@ -6,7 +6,7 @@
 
 2.) Mani's Money
     Moral of the story :- 
-        - It is always a good idea to save money in a bank account rather that storing it physically at home as they provide annular ROI ( Rate Of Interest ) to meet inflation ( a rate at which price of everything is increasing ).
+        - It is always a good idea to save money in a bank account rather that storing it physically at home as they provide annulal ROI ( Rate Of Interest ) to meet inflation ( a rate at which price of everything is increasing ).
 
 3.) Vishram Bus Story
     Moral of the story :- 
