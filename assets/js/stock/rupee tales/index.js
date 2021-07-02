@@ -6,11 +6,11 @@
 
 2.) Mani's Money
     Moral of the story :- 
-        - It is always a good idea to save money in a bank account rather that storing it physically at home as they provide annulal ROI ( Rate Of Interest ) to meet inflation ( a rate at which price of everything is increasing ).
+        - It is always a good idea to save money in a bank account rather that storing it physically at home as they provide annual ROI ( Rate Of Interest ) to meet inflation ( a rate at which price of everything is increasing ).
 
 3.) Vishram Bus Story
     Moral of the story :- 
-        - We should care about public transport or any thing like that which are provided by the government as they are being provided by them on behalf of the taxes we pay.So they belon to all of us and should be taken special care of.
+        - We should care about public transport or any thing like that which are provided by the government as they are being provided by them on behalf of the taxes we pay.So they belong to all of us and should be taken special care of.
 
 4.) One and a half stories
     Moral of the story :- 
