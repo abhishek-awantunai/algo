@@ -20,7 +20,7 @@
 6.4 How does the stock get traded? :-
     - We login into our trading account place our order.After that a ticket is generated with our account details such as details of trading account, price at which we want to buy or amount of share which we want to sell, number of shares.After successfully finding the match with buyer or seller based on our demand the share is purchased and stored in our demat account or is debited from our demat account. 
 
-    6.5 What happens after you own a stock? :-
+6.5 What happens after you own a stock? :-
     - By virtue of owning a share we are entitled to few coorporate benifits like dividends, stock split, bonus, rights issue, voting rights etc.
 
 6.6 A note on holding period :-
