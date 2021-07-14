@@ -11,5 +11,6 @@
     - Functional based components are faster than class based components.
 
 3.
+    - Component.defaultProps we can use to set default props of a component
 
 */
