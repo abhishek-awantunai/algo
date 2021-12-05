@@ -1,0 +1,1 @@
+"use strict";function Circle(e){this.radius=e,this.draw=function(){console.log("Draw")},Object.defineProperty(this,"diameter",{get:function(){return 2*this.radius},set:function(e){this.radius=e}})}var circle=new Circle(5);console.log(circle),circle.diameter=20,console.log(circle.diameter);

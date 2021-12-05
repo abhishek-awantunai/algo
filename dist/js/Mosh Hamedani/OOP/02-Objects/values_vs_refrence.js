@@ -1,0 +1,1 @@
+"use strict";var number=10;function increase(e){e.id++}increase(number),console.log(number);var number1={id:10};function increaseObject(e){e.id++}increaseObject(number1),console.log(number1);
