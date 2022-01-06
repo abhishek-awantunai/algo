@@ -1,0 +1,1 @@
+"use strict";var sameFrequency=function(r,e){var n,t=!1,a={};if(r.length!==e.length)return t;for(var o=0;o<r.length;o++)n[r[o]]=n[r[o]]?n[r[o]]+1:1;for(var f,l=0;l<e.length;l++)n[r[l]]=a[e[l]]?a[e[l]]+1:1;for(f in n){if(!a.hasOwnProperty(f)||a[f]!==n[f]){t=!1;break}t=!0}return t};console.log(sameFrequency([1,2,3,4,5],[1,4,9,25,9]));

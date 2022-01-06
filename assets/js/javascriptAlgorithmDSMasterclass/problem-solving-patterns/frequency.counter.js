@@ -1,26 +1,24 @@
-console.clear();
+/**
+    Famous problem solving pattern
+*/
 
 const sameFrequency = (arr1, arr2) => {
     let temp = false;
-    let obj1 = {};
-    let obj2 = {};
+    let obj1, obj2 = {};
     if (arr1.length !== arr2.length) {
         return temp;
     }
 
-    // Complexity = O(n)
     for (let i = 0; i < arr1.length; i++) {
         obj1[arr1[i]] = obj1[arr1[i]] ? obj1[arr1[i]] + 1 : 1;
     }
 
-    // Complexity = O(n)
     for (let i = 0; i < arr2.length; i++) {
-        obj2[arr2[i]] = obj2[arr2[i]] ? obj2[arr2[i]] + 1 : 1;
+        obj1[arr1[i]] = obj2[arr2[i]] ? obj2[arr2[i]] + 1 : 1;
     }
 
-    // Complexity = O(n)
     for (let key in obj1) {
-        if (obj2[key * key] == obj1[key]) {
+        if (obj2.hasOwnProperty(key) && obj2[key] === obj1[key]) {
             temp = true;
         } else {
             temp = false;
@@ -31,5 +29,4 @@ const sameFrequency = (arr1, arr2) => {
     return temp;
 }
 
-// Overall Complexity = O(n)
-console.log(sameFrequency([1, 2, 5], [1, 25, 4]));
+console.log(sameFrequency([1, 2, 3, 4, 5], [1, 4, 9, 25, 9]));
