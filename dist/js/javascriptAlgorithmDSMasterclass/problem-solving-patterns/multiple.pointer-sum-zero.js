@@ -1,0 +1,1 @@
+"use strict";console.clear();var sumZeroFinder=function(e){for(var r=0,o=e.length-1;r<o;){var n=e[r]+e[o];if(0<n)o--;else{if(!(n<0))return[r,o];r++}}};console.log(sumZeroFinder([-3,-2,-1,0,1,2,3,4,5,6]));

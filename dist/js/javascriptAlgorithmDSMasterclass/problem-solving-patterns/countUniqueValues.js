@@ -1,0 +1,1 @@
+"use strict";console.clear();var countUniqueValues=function(e){if(0===e.length)return 0;for(var n=0,u=1,o=1;o<e.length;o++)e[n]!==e[o]&&(u++,n=o);return u};console.log(countUniqueValues([-3,-3,-3,-3,-2,-2,-2,-1,0,1,1,1,1,1,1,1,2,3,4,5,6]));

@@ -1,0 +1,1 @@
+"use strict";console.clear();var removeCharacterFromString=function r(e,t){var a="";return e.length<1?"":(e[0]!==t&&(a+=e[0]),a.concat(r(e.substr(1),t)))},str="thi is me babe",_char2=" ";console.log(removeCharacterFromString(str,_char2));

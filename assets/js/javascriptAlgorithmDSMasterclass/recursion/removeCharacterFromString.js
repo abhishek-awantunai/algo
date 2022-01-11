@@ -2,8 +2,7 @@ console.clear();
 
 const removeCharacterFromString = (str, char) => {
     let text = '';
-
-    if (!text.length) return '';
+    if (str.length < 1) return '';
 
     if (str[0] !== char) {
         text += str[0];
@@ -12,8 +11,8 @@ const removeCharacterFromString = (str, char) => {
     return text.concat(removeCharacterFromString(str.substr(1), char));
 };
 
-const input1 = 'this is a sample text to brag about';
-const input2 = 'a';
+// const str = 'this is a sample text';
+const str = 'thi is me babe';
+const char = ' ';
 
-
-console.log(removeCharacterFromString(input1, input2));
+console.log(removeCharacterFromString(str, char));

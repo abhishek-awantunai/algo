@@ -1,0 +1,1 @@
+"use strict";console.clear();var binarySearchAlgorithm=function(r,e){if(0===r.length)return-1;for(var n=0,o=r.length-1;n<o;){var t=Math.floor((n+o)/2);if(r[t]<e)n=t+1;else{if(!(r[t]>e))return t;o=t-1}}return-1};console.log(binarySearchAlgorithm([-3,-2,-1,0,1,2,3,4,5,6],2));

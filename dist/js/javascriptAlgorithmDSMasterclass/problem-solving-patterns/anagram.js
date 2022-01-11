@@ -1,0 +1,1 @@
+"use strict";console.clear();var anagramFinder=function(r,a){var n=!1;if(r.length!==a.length)return n;for(var e={},t={},o=0;o<r.length;o++)e[r[o]]=e[r[o]]?e[r[o]]+1:1;for(var l,c=0;c<a.length;c++)t[a[c]]=t[a[c]]?t[a[c]]+1:1;for(l in e)if(n=!0,e[l]!=t[l]){n=!1;break}return n};console.log(anagramFinder("catad","adtac"));
