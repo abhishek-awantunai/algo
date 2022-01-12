@@ -1,3 +1,4 @@
+
 console.clear();
 
 const removeCharacterFromString = (str, char) => {
