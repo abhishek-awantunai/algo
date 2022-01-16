@@ -1,1 +1,1 @@
-"use strict";console.clear();var removeCharacterFromString=function t(r,e){var a="";return a.length?(r[0]!==e&&(a+=r[0]),a.concat(t(r.substr(1),e))):""},input1="this is a sample text to brag about",input2="a";console.log(removeCharacterFromString(input1,input2));
+"use strict";console.clear(),console.log("Hellooooooooo world!!! Yeyyyyyyyyyyys");var removeCharacterFromString=function o(t,r){var e="";return e.length?(t[0]!==r&&(e+=t[0]),e.concat(o(t.substr(1),r))):""},input1="this is a sample text to brag about",input2="a";console.log(removeCharacterFromString(input1,input2));

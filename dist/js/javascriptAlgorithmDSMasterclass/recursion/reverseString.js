@@ -1,0 +1,1 @@
+"use strict";console.clear();var reverseString=function t(e,r){var n="";return e.length?n+=e.substr(e.length-1)+t(e.substr(0,e.length-1),r):""},input1="this is a sample text to brag about",input2="a";console.log(reverseString(input1,input2));

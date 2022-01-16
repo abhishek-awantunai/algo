@@ -1,1 +1,1 @@
-"use strict";var maxSumArray=function(r,a){for(var o,n=0,t=0;t<a;t++)n+=r[t];o=n;for(var u=1;u<r.length-(a-1);u++)o<(n=n-r[u-1]+r[u+(a-1)])&&(o=n);return o};console.log(maxSumArray([1,2,3,4,5,6,6,4,3,3,5,3,3,3,3],3));
+"use strict";var maxSumArray=function(r,a){for(var o=0,n=0;n<a;n++)o+=r[n];for(var t=o,u=1;u<r.length-(a-1);u++)t<(o=o-r[u-1]+r[u+(a-1)])&&(t=o);return t};console.log(maxSumArray([1,2,3,4,5,6,6,4,3,3,5,3,3,3,3],3));

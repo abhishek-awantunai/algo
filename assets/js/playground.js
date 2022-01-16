@@ -1,5 +1,6 @@
 
 console.clear();
+console.log('Hellooooooooo world!!! Yeyyyyyyyyyyys');
 
 const removeCharacterFromString = (str, char) => {
     let text = '';

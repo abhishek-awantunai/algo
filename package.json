@@ -31,7 +31,7 @@
     "flow-bin": "^0.138.0",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
-    "gulp-sass": "^4.1.0",
+    "gulp-sass": "^5.1.0",
     "gulp-uglify": "^3.0.2",
     "gulp-uglifycss": "^1.1.0",
     "prettier": "^2.2.0",
@@ -42,6 +42,7 @@
     "@babel/preset-react": "^7.12.5",
     "@typescript-eslint/parser": "^4.8.1",
     "emoji-aware": "^3.0.5",
-    "grapheme-splitter": "^1.0.4"
+    "grapheme-splitter": "^1.0.4",
+    "node-sass": "^7.0.1"
   }
 }
