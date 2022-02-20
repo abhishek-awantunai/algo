@@ -1,1 +1,1 @@
-"use strict";console.clear(),console.log("Hellooooooooo world!!! Yeyyyyyyyyyyys");var removeCharacterFromString=function o(t,r){var e="";return e.length?(t[0]!==r&&(e+=t[0]),e.concat(o(t.substr(1),r))):""},input1="this is a sample text to brag about",input2="a";console.log(removeCharacterFromString(input1,input2));
+"use strict";var computeArea=function(e,r,o,t,c,u,a,n){var s=o<c||a<e?0:((t<n?t:n)-(u<r?r:u))*((o<a?o:a)-(c<e?e:c));return(o-e)*(t-r)+(a-c)*(n-u)-(0<s?s:0)};console.log(computeArea(-3,0,3,4,0,-1,9,2));

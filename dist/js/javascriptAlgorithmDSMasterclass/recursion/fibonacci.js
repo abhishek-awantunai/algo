@@ -1,0 +1,1 @@
+"use strict";console.clear();var productOfAnArray=function r(o){return 0===o.length?1:o.pop()*r(o)};console.log(productOfAnArray([1,2,3,4,5]));

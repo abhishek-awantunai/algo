@@ -1,0 +1,1 @@
+"use strict";console.clear();var exponentialPower=function e(o,n){return 1===n?o:o*e(o,n-1)};console.log(exponentialPower(5,3));
