@@ -1,1 +1,1 @@
-"use strict";var computeArea=function(e,r,o,t,c,u,a,n){var s=o<c||a<e?0:((t<n?t:n)-(u<r?r:u))*((o<a?o:a)-(c<e?e:c));return(o-e)*(t-r)+(a-c)*(n-u)-(0<s?s:0)};console.log(computeArea(-3,0,3,4,0,-1,9,2));
+"use strict";var arr=[1,2,3,4,5,6,7,8,9,10],target=1,binarySearch=function(r,a){for(var e=0,t=r.length-1;e<=t;){var n=Math.floor((e+t)/2);if(r[n]>a)t=n-1;else{if(!(r[n]<a))return n;e=n+1}}return-1};console.log("binarySearch => "+binarySearch(arr,target));

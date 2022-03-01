@@ -1,0 +1,1 @@
+"use strict";var arr=[1,2,3,4,5,6,7,8,9,10],target=7,binarySearch=function(r,a){for(var e=0,t=r.length-1;e<=t;){var n=Math.floor((e+t)/2);if(r[n]>a)t=n-1;else{if(!(r[n]<a))return n;e=n+1}}return-1};console.log("binarySearch => "+binarySearch(arr,target));

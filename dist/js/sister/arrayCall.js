@@ -1,1 +1,1 @@
-"use strict";var data1="Kala Khatta Wala Mumma",data2=[].filter.call(data1,function(a,t){return 6<t});console.log(data2);
+"use strict";var data1="Kala Khatta Wala Mumma",data2=[].filter.call(data1,function(a,t){return 6<t}).join("");console.log(data2);
