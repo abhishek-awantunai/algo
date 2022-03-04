@@ -1,0 +1,1 @@
+"use strict";function x(){for(var o=1;o<=5;o++)!function(o){setTimeout(function(){console.log(o)},1e3*o)}(o)}x();

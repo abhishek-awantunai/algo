@@ -1,22 +1,23 @@
-const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const target = 1;
+const radius = [1, 2, 3, 4, 5];
 
-const binarySearch = (arr, target) => {
-    let start = 0;
-    let end = arr.length - 1;
-    
-    while (start <= end) {
-        let mid = Math.floor((start + end) / 2);
-        if (arr[mid] > target) {
-            end = mid - 1;
-        } else if (arr[mid] < target) {
-            start = mid + 1;
-        } else {
-            return mid;
-        }
+const calculateAreaOfCircle = (radius) => {
+    return Math.round(Math.PI*radius*radius);
+}
+const calculateCircumference = (radius) => {
+    return Math.round(2*Math.PI*radius);
+}
+const calculateDiameter = (radius) => {
+    return 2*radius;
+}
+
+const calculationWrapper = (radius, fn) => {
+    const arr = [];
+    for (let i = 0; i < radius.length; i++) {
+        arr.push(fn(radius[i]));
     }
-    return -1;
+    return arr;
 };
 
-
-console.log('binarySearch => ' + binarySearch(arr, target));
+console.log(calculationWrapper(radius, calculateAreaOfCircle));
+console.log(calculationWrapper(radius, calculateCircumference));
+console.log(calculationWrapper(radius, calculateDiameter));
