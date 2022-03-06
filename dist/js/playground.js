@@ -1,1 +1,1 @@
-"use strict";var radius=[1,2,3,4,5],calculateAreaOfCircle=function(a){return Math.round(Math.PI*a*a)},calculateCircumference=function(a){return Math.round(2*Math.PI*a)},calculateDiameter=function(a){return 2*a},calculationWrapper=function(a,r){for(var c=[],e=0;e<a.length;e++)c.push(r(a[e]));return c};console.log(calculationWrapper(radius,calculateAreaOfCircle)),console.log(calculationWrapper(radius,calculateCircumference)),console.log(calculationWrapper(radius,calculateDiameter));
+"use strict";
