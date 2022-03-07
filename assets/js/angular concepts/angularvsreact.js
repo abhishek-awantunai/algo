@@ -2,7 +2,7 @@
 
   So, understanding Angular isn’t definitely an easy task, there’s a lot to learn, but in the end you’ll have a strong structure for your app: this is where Angular really shines, complex enterprise applications. It must be absolutely clear in your mind that you don’t need Angular for a simple website
 
-  Angular has its own template engine which is nice, and keeps HTML separated from JavaScript. This could be particularly appreciated by some devs who don’t like mixing them together, and THIS could be one of the selling points of Angular over React, but it’s a matter of preferences, it could be vice versa.
+  Angular has its own template engine which is nice, and keeps HTML separated from JavaScript. This could be particularly appreciated by some developers who don’t like mixing them together, and THIS could be one of the selling points of Angular over React, but it’s a matter of preferences, it could be vice versa.
 
   On the other side, React uses JSX which is basically a declarative way to put HTML into JavaScript: for me, that’s awesome. JSX is what keeps React’s components easy to understand and easy to work with. JSX is all about expression AND flexibility. Did someone say “dynamic component instantiation”? That’s where React is so much powerful over Angular, where dynamic instantiation is definitely more verbous (may it change in the future, it’d be awesome).
 

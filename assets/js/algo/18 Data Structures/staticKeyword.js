@@ -1,14 +1,10 @@
 /* 
 
-A class is blueprint for creating objects with predefined properties and methods
-
-Put Static keyword before a function to make it a Class Method
+Static keyword before a function in a class
 
 Instance Methods :-
-    - printPoints is a simple instance method that prints the instance of point on which it is called
-Class Methods :- 
-    - methods defined with static keyword are class method as distanceBetweenPoints is
-    - class methods do occur on class so basically they are utility functions
+Class Methods :-
+
 */
 
 

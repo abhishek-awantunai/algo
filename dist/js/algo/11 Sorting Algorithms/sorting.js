@@ -1,0 +1,1 @@
+"use strict";[6,4,10,12,3,15].sort(),[6,4,10,12,3,15].sort(function(t,n){return t-n}),[6,4,10,12,3,15].sort(function(t,n){return n-t}),["Apple","Banana","Orange","Carrot","Kiwi"].sort(function(t,n){return t.length-n.length});

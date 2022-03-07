@@ -1,0 +1,1 @@
+"use strict";var selectionSortTheArray=function(r){for(var o=0;o<r.length;o++){for(var e,n=o,t=o;t<r.length;t++)r[t]<r[n]&&(n=t);o!==n&&(e=r[o],r[o]=r[n],r[n]=e,console.log("swapping => ",r))}return r},arr1=[13,12,1,2,3,4,5,6,7,8,9,10,11];console.log(selectionSortTheArray(arr1));
