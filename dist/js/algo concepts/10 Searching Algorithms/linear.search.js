@@ -1,0 +1,1 @@
+"use strict";var arr=[12,3,4,5,55,53,233,43,433,34,23],target=23,linearSearchAlgo=function(r,e){for(var a=0;a<r.length;a++)if(r[a]===e)return a;return-1};console.log(linearSearchAlgo(arr,target));

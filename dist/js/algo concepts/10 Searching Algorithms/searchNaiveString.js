@@ -1,0 +1,1 @@
+"use strict";var str="harold said ha in the morning while she was drinking tea",word="tea",findWordInString=function(r,n){for(var i=0;i<r.length;i++)if(r.slice(i,i+n.length)===n)return i;return-1};console.log(findWordInString(str,word));

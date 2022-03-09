@@ -1,0 +1,1 @@
+"use strict";document.getElementById("button").addEventListener("click",function(t){t.stopPropagation(),t.preventDefault()}),document.getElementById("button").addEventListener("click",function(t){t.stopPropagation(),t.preventDefault()},!0);
