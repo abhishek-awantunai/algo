@@ -8,3 +8,19 @@ What is Singly Linked List
     - Head is the beginning of the Linked List and Tail is the end of the Linked List
 
 */
+
+class Node {
+    constructor(value) {
+        this.head = value;
+        this.next = null;
+    }
+}
+
+const node = new Node('hey');
+node.next = new Node('there');
+node.next.next = new Node('how');
+node.next.next.next = new Node('are');
+node.next.next.next.next = new Node('you');
+node.next.next.next.next.next = new Node('!!!');
+
+console.log(node);
