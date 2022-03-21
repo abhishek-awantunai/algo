@@ -1,7 +1,12 @@
-/**
+/**\
 
-  Shadow DOM is like a parallel DOM tree hosted inside a component(an HTML element, not to be confused with Angular components), hidden away from the main DOM tree which has their own, isolated scope for the element they represent.
+  DOM - It is a in memory representation of out HTML in the form of Objects.
+
+  Shadow DOM - It is like a parallel DOM tree hosted inside a component(an HTML element, not to be confused with Angular components), hidden away from the main DOM tree which has their own, isolated scope for the element they represent.
   It is the implementation of the Shadow DOM standard that allows view, style, and behavior encapsulation
+  It lets us create custom components or in other words create scoped DOM Trees inside our elements.Css in HTML won't affect css in shadow DOM.
+
+  Virtual DOM - It is an abstraction on top of the actual DOM where an ideal, or "virtual" representation of a UI is kept in memory and synced with the real DOM.  
 
 
   Shadow vs Virtual

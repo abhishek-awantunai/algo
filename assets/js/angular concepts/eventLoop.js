@@ -32,7 +32,7 @@ What is Javascript?
 
   What is event loop?
 
-  Event loop has one very simlpe job i.e to look at the stack and then look at the task queue if the stack is empty, it takes the first things in the task queue and pushed it into call stack which effectively runs it.
+ https Event loop has one very simlpe job i.e to look at the stack and then look at the task queue if the stack is empty, it takes the first things in the task queue and pushed it into call stack which effectively runs it.
 
   If we have attached an event to an element then on occurance of that event the code first goest to callback queue and then event look checks if the call stack is empty then only it call stack is empty then it gets pushed to call stack and finally the event is called.
 

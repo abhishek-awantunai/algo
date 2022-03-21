@@ -9,7 +9,7 @@
   We have stream of data possibly asynchronous so possible multiple values over time  and now we want to do something whenever a new data comes that is the job of Observer.
 
   Observer :-
-  The observer is there to execute some code whenever we recieve a value or error or completion notifier.
+  The observer is there to execute some code whenever we receive a value or error or completion notifier.
   So observer is the part handling the incoming data. So we need observer to connect to an observable.
 
   Observer implements three methods :

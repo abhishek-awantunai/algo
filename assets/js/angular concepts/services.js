@@ -5,6 +5,4 @@
 
   The functions offered by an Angular service can be invoked from any Angular component, such as a controller or directive.
 
-
-
 */

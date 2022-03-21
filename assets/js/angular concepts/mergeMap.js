@@ -18,7 +18,7 @@ obs1.mergeMap(
   console.log(combinedValue);
 })
 
-This will trigger only if the inner Observale will emit the value.
+This will trigger only if the inner Observable will emit the value.
 Mergemap is handy when you have multiple data source and you want to merge them into one where one of the data sources is the one basically telling when the event emission happens.
 
 */

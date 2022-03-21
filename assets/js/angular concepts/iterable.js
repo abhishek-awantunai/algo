@@ -1,5 +1,5 @@
 /**
-  Due to this Symbol.iterator genarator present in this Array we are able to apply for of loop in an array
+  Due to this Symbol.iterator generator present in this Array we are able to apply for of loop in an array
  */
 
 let i = [1, 2, 3, 4, 5, 6, 7];

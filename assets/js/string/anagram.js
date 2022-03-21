@@ -1,5 +1,5 @@
 const isAnagram = (s, t) => {
-  // check for length if not of equal length then definetly not an anangram so return false
+  // check for length if not of equal length then definitely not an anagram so return false
   if (s.length !== t.length) return false;
 
   let sFrequency = {};

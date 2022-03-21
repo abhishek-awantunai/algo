@@ -1,12 +1,12 @@
 /**
   Improving Angular Application performance :-
-  - Profilling
+  - Profiling
 
 */
 
 /**
 
-Best practices for Angular Apllication Speed
+Best practices for Angular Application Speed
 
 i) Code Splitting
 ii) Bundle preloading
@@ -51,10 +51,10 @@ iii) Efficient Serving
 Performance best practices :-
 
 Build performance
-Starter prformance
+Starter performance
 Runtime performance
 
-Starter prformance
+Starter performance
 
 - enable in angular.json
   sourceMap: true
@@ -90,15 +90,15 @@ It is strongly related to Angular performance
 It makes sure that your view is in sync with your data model which is being provided by component instance.
 
 
-When we write an Anular application a component tree is genrated.
-Angular keeps change detector for eacch of those components in component tree
+When we write an Angular application a component tree is generated.
+Angular keeps change detector for each of those components in component tree
 
 Application has a shadowed Change Detector Tree, each component has a change detector
 
 Whenever there is a change in any component we run through the change detector tree from top to bottom - for Default
 
 detectChanges() [ it is a method in change detector ]
-It is called when an event has occured and bindings should be checked
+It is called when an event has occurred and bindings should be checked
 
 This happens when we do have change in our Application.
 And each change in our application leads to
@@ -106,7 +106,7 @@ And each change in our application leads to
 - a change detection cycle occurs from top to bottom ( all components )
 - unidirectional
 
-Baically each change in your app leads to change detection cycle which may have side effects.
+Basically each change in your app leads to change detection cycle which may have side effects.
 
 So we should reduce duration of a change detection cycle
   - by reducing amount of bindings (eg.GRIDS: virtual scrolling via CdK)
@@ -142,9 +142,9 @@ NgZone.onMicrotasksEmpty()     ------------->       ApplicationRef.tick()
 
 Angular itself binds to the NgZone and this has a event handler called NgZone.onMicrotasksEmpty() when there is no task remaining in current VM
 
-Whenever this state is reached then Angular calls ApplicationRef.tick() the tick metchod of the ApplicationRef.
+Whenever this state is reached then Angular calls ApplicationRef.tick() the tick method of the ApplicationRef.
 
-Internally all componnets are referred to as Views and then angular will quickly run across all of the different views and call detectchanges on the change  detector of that specific view.
+Internally all components are referred to as Views and then angular will quickly run across all of the different views and call detectchanges on the change  detector of that specific view.
 
 
 
@@ -159,7 +159,7 @@ Common pitfalls of ZoneJS
 
 
 
-Avoid continous cd cycle while a mouse move event :-
+Avoid continuos cd cycle while a mouse move event :-
 
 ngZone.runOutsideAngular(() => {
   // runs outside angular zone, for performance-critical code
@@ -176,7 +176,7 @@ When we subscribe to the mousemove event inside that  runOutsideAngular function
 we can disable patches (polyfill.ts) in zone js :-
 
 (window as any).__Zone_disable_requestAnimationFrame = true;
-// disable patch requestAniamtionFrame = true
+// disable patch requestAnimationFrame = true
 
 (window as any).__Zone_disable_on_property = true;
 // disable patch on property such as onclick
@@ -188,7 +188,7 @@ by disable this the cd cycle wont run every 16ms.
 
 But this my make your application run out of sync
 
-default ChangeDetectionStrategy for component is defau;t
+default ChangeDetectionStrategy for component is default
 
 Default:
 Uses zone.js for detecting changes and updates bindings.

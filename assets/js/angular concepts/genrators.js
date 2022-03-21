@@ -1,5 +1,5 @@
 /**
-  Genrators are functions that can be paused and resumed as many times we like and at each pause it yeilds a value back.
+  Generators are functions that can be paused and resumed as many times we like and at each pause it yeilds a value back.
 
   Arrays are iterable objects means we iterate through its values.
 
@@ -9,7 +9,7 @@
 
   console.log(iterator.next().value);
 
-  Due to this Symbol.iterator genarator present in this Array we are able to apply for of loop in an array 
+  Due to this Symbol.iterator generator present in this Array we are able to apply for of loop in an array 
 
 */
 
