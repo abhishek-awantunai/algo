@@ -1,6 +1,6 @@
 /*
 
-ExpressionCheckedAfterItHasBeenCheckedError :-
+ExpressionChangedAfterItHasBeenCheckedError :-
 
 
 ( Core of React and Angular )
@@ -18,10 +18,10 @@ Change Detection :-
   As we know changes are triggered by events and the propagation of changes is done in two phases.
   i) Application Phase ii) Change Detection Phase
 
-  - ngZone is just a wrapper around zonejs API
+  - ngZone is just a wrapper around zone-js API
 
-  Zonejs API tracks and intercepts async operations like setTimeout setInterval click addEventListener
+  Zone-js API tracks and intercepts async operations like setTimeout setInterval click addEventListener
 
-  When a async operation occurs change detection occurs and whenver change detection occurs then ngDoCheck will kick in.
+  When a async operation occurs change detection occurs and whenever change detection occurs then ngDoCheck will kick in.
 
 */

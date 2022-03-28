@@ -28,14 +28,14 @@ What is Javascript?
 
   When we call setTimeout, we pass callback function and a delay.setTimeout is an API provided by web browser as it does not lives in v8 engine source.Its like extra  stuff we get in the browser environment in which we are running the javascript runtime.
 
-  Now we get this timer in this Web API which gets complets after certain time.But after completion of time.Web API's can't just like modify your code in middle when it is ready.This is where Task Queue or Callback Queue kicks in.So basically when a web API is done they push the callback into the task queue.Then finally event loop comes.
+  Now we get this timer in this Web API which gets completes after certain time.But after completion of time.Web API's can't just like modify your code in middle when it is ready.This is where Task Queue or Callback Queue kicks in.So basically when a web API is done they push the callback into the task queue.Then finally event loop comes.
 
   What is event loop?
 
- https Event loop has one very simlpe job i.e to look at the stack and then look at the task queue if the stack is empty, it takes the first things in the task queue and pushed it into call stack which effectively runs it.
+ https Event loop has one very simple job i.e to look at the stack and then look at the task queue if the stack is empty, it takes the first things in the task queue and pushed it into call stack which effectively runs it.
 
-  If we have attached an event to an element then on occurance of that event the code first goest to callback queue and then event look checks if the call stack is empty then only it call stack is empty then it gets pushed to call stack and finally the event is called.
+  If we have attached an event to an element then on occurrence of that event the code first goes to callback queue and then event look checks if the call stack is empty then only it call stack is empty then it gets pushed to call stack and finally the event is called.
 
-  SetTimeout is not a guranteed time of execution but it is minimum time of execution
+  SetTimeout is not a guaranteed time of execution but it is minimum time of execution
 
 */

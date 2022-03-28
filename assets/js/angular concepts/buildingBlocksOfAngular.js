@@ -12,8 +12,7 @@ Dependency Injection (DI) – Angular makes use of DI to provide required depend
 
 Directives – The templates used by Angular are dynamic in nature. Directives are responsible for instructing Angular about how to transform the DOM when rendering a template. Actually, components are directives with a template. Other types of directives are attribute and structural directives.
 
-Metadata – In order to let Angular know how to process a class, metadata is attached to the class. For doing so decorators are used.
-It is basically an extra piece of information which we provide to a class to let then know how to process a class.
+Metadata – In order to let Angular know how to process a class, metadata is attached to the class. For doing so decorators are used. It is basically an extra piece of information which we provide to a class to let then know how to process a class.
 
 Modules – Also known as NgModules, a module is an organized block of code with a specific set of capabilities. It has a specific application domain or a workflow. Like components, any Angular application has at least one module. This is known as the root module. Typically, an Angular application has several modules.
 A module is a piece of software that has a specific functionality

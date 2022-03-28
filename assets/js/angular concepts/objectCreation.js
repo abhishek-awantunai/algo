@@ -17,7 +17,7 @@
 
 const obj1 = {
   property1: "apple",
-  property2: "banana",f Object()
+  property2: "banana",
   property3: "guava",
   method1: function () {
     console.log(this.property1);

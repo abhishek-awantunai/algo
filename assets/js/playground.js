@@ -1,12 +1,32 @@
-/*
-Implement :-
-sum(1)(2)(3)(4)(5)(6)(7).....(n)
-*/
+class Node {
+    constructor(val) {
+        this.val = val;
+        this.next = null;
+    }
+}
 
-// const sumCallBack = () => {
+class List {
+    constructor() {
+        this.head = null;
+        this.length = 0;
+    }
 
-// }
+    push(val) {
+        let node = new Node(val);
+        if (!this.length) { 
+            this.head = node; 
+        }
 
-const sum = a => b => b ? sum(a+b) : a;
+        let current = this.head;
+        while (current.next) {
+            current = current.next;
+        }
+        current.next = node;
+        this.length++;
+        return this.head;
+    }
+}
 
-// console.log(sum(1)(2)(3)(4)(5)(6)(7)());
+const list = new List();
+list.push(10);
+console.log(list);

@@ -1,5 +1,5 @@
 /**
-  Generators are functions that can be paused and resumed as many times we like and at each pause it yeilds a value back.
+  Generators are functions that can be paused and resumed as many times we like and at each pause it yields a value back.
 
   Arrays are iterable objects means we iterate through its values.
 

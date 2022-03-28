@@ -9,7 +9,7 @@ Source : -
 - How application code and angular code work together
     - Broadly angular has two parts 
         - Angular Compiler
-            - It is a build time utility that
+            - It is a build time utility that converts Typescript code to JavaScript and in addition to that it also parses your angular decorators in your templates into some code that runtime can understand.
         - Angular Runtime
             - It is the framework code that ships the application and actually runs the application in the browser
 
@@ -57,12 +57,5 @@ Source : -
         - Compilation Model
         - Features of Compiler
         - Template type checking
-
-
-
-
-
-
-
-
+        
 */

@@ -1,6 +1,6 @@
 /*
 
-Using aync pipe we can directly use an Observable or a prommise in template. 
+Using aync pipe we can directly use an Observable or a promise in template. 
 
 <div class="courses">
   <course-card *ngFor="let course of (courses$ | async)">

@@ -39,7 +39,7 @@ We use directives to modify a DOM :-
       selector: '[appShowPerson]'
     })
 
-    export class ShowPersondirective{
+    export class ShowPersonDirective{
 
       private template: TemplateRef<any>,
       private viewContainerRef: ViewContainerRef;
@@ -49,7 +49,7 @@ We use directives to modify a DOM :-
           let view = this.viewContainerRef.createEmbeddedView(this.template);
 
         } else {
-          this.viewContainerRef.cleear();
+          this.viewContainerRef.clear();
         }
       }
     }
