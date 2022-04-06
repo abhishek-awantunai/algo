@@ -2,6 +2,10 @@
 
 Mergemap :-
 
+It is a flattening operator i.e just like other operators it tries to extract values from returned from observables
+
+map + mergeAll = mergeMap 
+
 const input1 = document.getElementById('input1');
 const input2 = document.getElementById('input2');
 

@@ -3,7 +3,7 @@
 https://www.youtube.com/watch?v=dM04T2-dfhU
 
 
-An angular application consists of components and templates which a browser cannot understand. Therefore, every Angular application needs to be compiled before running inside the browser. The Angular compiler takes in the JS code, compiles it, and then produces some JS code. It is known as AOT compilation and happens only once per occasion per user.
+An angular application consists of components and templates which a browser cannot understand. Therefore, every Angular application needs to be compiled before running inside the browser. The Angular compiler takes in the TS code, compiles it, and then produces some JS code. It is known as AOT compilation and happens only once per occasion per user.
 
 There are two kinds of compilation that Angular provides:
 

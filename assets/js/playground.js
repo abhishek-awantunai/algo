@@ -1,32 +1,17 @@
-class Node {
-    constructor(val) {
-        this.val = val;
-        this.next = null;
+let arr = [1,2,34,534,235,345,43,3];
+
+const sortArray = (arr) => {
+    for (let i = 0; i < arr.length; i++) {
+        for(let j = 1; j < i; j++) {
+            if (arr[i] < arr[j]) {
+                let temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
     }
+
+    return arr;
 }
 
-class List {
-    constructor() {
-        this.head = null;
-        this.length = 0;
-    }
-
-    push(val) {
-        let node = new Node(val);
-        if (!this.length) { 
-            this.head = node; 
-        }
-
-        let current = this.head;
-        while (current.next) {
-            current = current.next;
-        }
-        current.next = node;
-        this.length++;
-        return this.head;
-    }
-}
-
-const list = new List();
-list.push(10);
-console.log(list);
+console.log(sortArray(arr));

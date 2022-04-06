@@ -6,7 +6,7 @@
   - It is basically a wrapper around some data source.Data source basically means a stream of values.We basically use Observables for asynchronous data.
   We can also wrap it around a synchronous data source.
 
-  We have stream of data possibly asynchronous so possible multiple values over time  and now we want to do something whenever a new data comes that is the job of Observer.
+  We have stream of data possibly asynchronous so possible multiple values will come over time  and we want to do something whenever a new data comes that is the job of Observer.
 
   Observer :-
   The observer is there to execute some code whenever we receive a value or error or completion notifier.

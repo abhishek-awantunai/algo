@@ -1,1 +1,1 @@
-"use strict";
+"use strict";var button=document.getElementById("button");console.log(button),Rx.Observable.fromEvent(button,"click").map(function(t){return t.clientY}).throttleTime(1e3).subscribe(function(t){console.log(t)});

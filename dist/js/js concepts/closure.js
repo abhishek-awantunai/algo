@@ -1,1 +1,1 @@
-"use strict";function x(){for(var o=1;o<=5;o++)!function(o){setTimeout(function(){console.log(o)},1e3*o)}(o)}x();
+"use strict";function x(){for(var o=1;o<=5;o++)!function(o){setTimeout(function(){console.log(o)},1e3*o)}(o)}x();var trackMyCall=function(){var o=0;return function(){return++o}}();console.log(trackMyCall()),console.log(trackMyCall()),console.log(trackMyCall()),console.log(trackMyCall()),console.dir(trackMyCall);

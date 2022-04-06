@@ -1,5 +1,15 @@
 /**
 
+All components and directives do have life cycle hooks
+Components have more life cycle hooks than directives
+
+Component & Directive common life cycle hooks :-
+    - ngOnInit, ngOnChanges, ngDoCheck, ngOnDestroy
+
+Life cycle hooks that run only on Components :-
+    - ngAfterContentInit, ngAfterContentChecked, ngAfterViewInit, ngAfterViewChecked
+
+
 Lifecycle Hooks :-
 
 A number of different phases a component goes through from birth to death.

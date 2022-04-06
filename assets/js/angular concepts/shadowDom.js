@@ -1,4 +1,4 @@
-/**\
+/**
 
   DOM - It is a in memory representation of out HTML in the form of Objects.
 

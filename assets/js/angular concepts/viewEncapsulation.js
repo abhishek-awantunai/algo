@@ -1,10 +1,6 @@
 /**
 
-  What is the process called by which TypeScript code is converted into JavaScript code?
-
-  Answer: It is called Transpiling. Even though TypeScript is used for writing code in Angular applications, it gets internally transpiled into equivalent JavaScript.
-
-  What is ViewEncapsulation and how many ways are there do to do it in Angular?
+Q1) What is ViewEncapsulation and how many ways are there do to do it in Angular?
 
   ViewEncapsulation determines whether the styles defined in a particular component will affect the entire application or not. Angular supports 3 types of ViewEncapsulation:
 
