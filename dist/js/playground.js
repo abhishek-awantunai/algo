@@ -1,1 +1,1 @@
-"use strict";var arr=[1,2,34,534,235,345,43,3],sortArray=function(r){for(var o=0;o<r.length;o++)for(var a,t=1;t<o;t++)r[o]<r[t]&&(a=r[o],r[o]=r[t],r[t]=a);return r};console.log(sortArray(arr));
+"use strict";var str="sdjdsksksksdfd",findLargestUniqueSubString=function(n){for(var r={},s=0,t=0,e=0;e<n.length;e++){var i=r[n[e]];console.log(e,n[e],i,r),null!=i&&s<=i?s=i+1:t=Math.max(t,e-s+1),r[n[e]]=e}return t};console.log(findLargestUniqueSubString(str));

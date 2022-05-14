@@ -4,7 +4,7 @@ Event Bubbling & Capturing / Trickling
     - These are two ways of event propagation in the DOM tree.
 
     - Basically in which sequence the event propagation will happen
-    - In case of bubbling the event propagation moves up to the hierarchy anf it goes directly till the end of DOM
+    - In case of bubbling the event propagation moves up to the hierarchy and it goes directly till the end of DOM
     - Event Capturing is upwards down that is from top to bottom
 
 */

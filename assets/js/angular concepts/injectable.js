@@ -24,14 +24,14 @@ and the generated javascript code of above service has meta information about Ht
 
 
 How do you configure injectors with providers at different levels?
-You can configure injectors with providers at different levels of your application by setting a metadata value. The configuration can happen in one of three places,
+    - You can configure injectors with providers at different levels of your application by setting a metadata value. The configuration can happen in one of three places,
 
-In the @Injectable() decorator for the service itself
-In the @NgModule() decorator for an NgModule
-In the @Component() decorator for a component
+    - In the @Injectable() decorator for the service itself
+    - In the @NgModule() decorator for an NgModule
+    - In the @Component() decorator for a component
 
 
 Can I share services using modules?
-No, it is not recommended to share services by importing module. i.e Import modules when you want to use directives, pipes, and components only. The best approach to get a hold of shared services is through 'Angular dependency injection' because importing a module will result in a new service instance.
+    - No, it is not recommended to share services by importing module. i.e Import modules when you want to use directives, pipes, and components only. The best approach to get a hold of shared services is through 'Angular dependency injection' because importing a module will result in a new service instance.
 
 */

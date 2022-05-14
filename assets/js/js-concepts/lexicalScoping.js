@@ -27,7 +27,7 @@
 
   Whenever a execution environment is created then in that execution context's memory a reference to its parents lexical environment is also present
 
-  This mechanism of finding variables in the local memory then it went to the reference to the parent lexical environment then it moves to parent of that lexical environment then again to its parent so this way of finding variables is known as scope chain.
+  The mechanism of finding variables in the local memory then it went to the reference to the parent lexical environment then it moves to parent of that lexical environment then again to its parent so this way of finding variables is known as scope chain.
   
   So scope chain is nothing but chain of lexical environments and the parent references.So if JS engine does not find a value in local scope then its moves one level up to the parent's lexical scope reference until it encounters null.This is called scope chain.
 

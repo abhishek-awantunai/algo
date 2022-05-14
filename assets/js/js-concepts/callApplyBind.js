@@ -1,6 +1,5 @@
 /**
 
-    Each and every function in JS has access to this keyword 
     Using call, apply, bind method we can do Function Borrowing i.e we can borrow functions from a object and use it with the data of some other object.
 
 */

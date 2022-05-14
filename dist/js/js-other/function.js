@@ -1,0 +1,1 @@
+"use strict";function a(){console.log("a called")}a();var b=function(){console.log("b called")},c=function(){console.log("d c called")},fn=function(o){console.log(o)},argu=5,arrow=(fn(argu),function(){console.log("arrow")});arrow();

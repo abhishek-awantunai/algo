@@ -10,7 +10,8 @@
 
 const BASE_URL = new InjectionToken<string>('BaseUrl');
 const injector =
-   Injector.create({providers: [{provide: BASE_URL, useValue: 'http://some-domain.com'}]});
+
+Injector.create({providers: [{provide: BASE_URL, useValue: 'http://some-domain.com'}]});
 const url = injector.get(BASE_URL);
 
 */

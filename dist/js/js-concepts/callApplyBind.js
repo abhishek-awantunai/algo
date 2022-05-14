@@ -1,0 +1,1 @@
+"use strict";var obj1={fname:"Abhishek",lname:"Kumar"},obj2={fname:"Sachin",lname:"Tendulkar"},printFullName=function(){console.log(this.fname+" "+this.lname)};printFullName.call(obj1),printFullName.call(obj2);

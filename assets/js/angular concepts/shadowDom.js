@@ -1,6 +1,6 @@
 /**
 
-  DOM - It is a in memory representation of out HTML in the form of Objects.
+  DOM - It is a in memory representation of our HTML in the form of Objects.
 
   Shadow DOM - It is like a parallel DOM tree hosted inside a component(an HTML element, not to be confused with Angular components), hidden away from the main DOM tree which has their own, isolated scope for the element they represent.
   It is the implementation of the Shadow DOM standard that allows view, style, and behavior encapsulation

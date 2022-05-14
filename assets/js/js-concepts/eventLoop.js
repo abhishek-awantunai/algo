@@ -11,7 +11,6 @@ What is Javascript?
 
   - Asynchronous code - we run some code give it a callback and we run that later.
 
-
   - Async code and call stack
 
   - Concurrency and the event loop
@@ -25,6 +24,9 @@ What is Javascript?
   Web API === C++ API for Node
 
   Browser runtime can only do one thing at a time but browser also gives us these other things like Web Api's which are effectively threads that you can't access like threads you can just make calls to.And those pieces of the browser are the place where concurrency kicks in.
+Browser runtime can only do one thing at a time but browser also Browser runtime can only do one thing at a time but browser also gives us these other things like Web Api's which are effectively threads that you can't access like threads you can just make calls to.And those pieces of the browser are the place where concurrency kicks in.
+ runtime can only do one thing at a time but browser also gives us these other things like Web Api's which are effectively threads that you can't access like threads you can just make calls to.And those pieces of the browser are the place where concurrency kicks in.
+es us these other things like Web Api's which are effectively threads that you can't access like threads you can just make calls to.And those pieces of the browser are the place where concurrency kicks in.
 
   When we call setTimeout, we pass callback function and a delay.setTimeout is an API provided by web browser as it does not lives in v8 engine source.Its like extra  stuff we get in the browser environment in which we are running the javascript runtime.
 
@@ -32,7 +34,7 @@ What is Javascript?
 
   What is event loop?
 
- https Event loop has one very simple job i.e to look at the stack and then look at the task queue if the stack is empty, it takes the first things in the task queue and pushed it into call stack which effectively runs it.
+  https Event loop has one very simple job i.e to look at the stack and then look at the task queue if the stack is empty, it takes the first things in the task queue and pushed it into call stack which effectively runs it.
 
   If we have attached an event to an element then on occurrence of that event the code first goes to callback queue and then event look checks if the call stack is empty then only it call stack is empty then it gets pushed to call stack and finally the event is called.
 

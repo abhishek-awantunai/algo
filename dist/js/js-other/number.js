@@ -1,0 +1,1 @@
+"use strict";console.log(!1),console.log(!1),console.log((3*300.3).toFixed(3)),console.log(900.9==(3*300.3).toFixed(3)),console.log(900.9===(3*300.3).toFixed(3)),console.log(900.9===Number((3*300.3).toFixed(3))),console.log(900.9===Number((3*300.3).toPrecision(5))),console.log((3*300.3).toPrecision(5)),console.log(!0);

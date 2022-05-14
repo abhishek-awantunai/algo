@@ -8,10 +8,6 @@ Basically, there are two main kinds of entry components which are following -
 The bootstrapped root component
 A component you specify in a route
 
-
-What is a bootstrapped component?
-A bootstrapped component is an entry component that Angular loads into the DOM during the bootstrap process or application launch time. Generally, this bootstrapped or root component is named as AppComponent in your root module using bootstrap property as below.
-
 @NgModule({
   declarations: [
     AppComponent

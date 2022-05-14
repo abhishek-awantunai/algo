@@ -1,0 +1,1 @@
+"use strict";for(var arr=[],total=0,i=1;i<=100;i++)53!==i&&arr.push(i),total+=i;var totalFor=5050,arrReduce=arr.reduce(function(r,i){return r+i}),missing=totalFor-arrReduce;console.log(missing);

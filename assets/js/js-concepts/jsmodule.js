@@ -1,7 +1,7 @@
 /**
 
 Module in Js is just a file that exports some code which can be imported somewhere and used.
-it allows us to import and export the 
+it allows us to import and export the code
 
 
 Es6 modules since 2015

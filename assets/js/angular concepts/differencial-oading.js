@@ -7,6 +7,6 @@ From Angular8 release onwards, the applications are built using differential loa
     The second build contains old ES5 syntax to support older browsers with all necessary polyfills. But this results in a larger bundle size.
     
     Note: This strategy is used to support multiple browsers but it only load the code that the browser needs.
-
+    And we need to configure it.
 
 */

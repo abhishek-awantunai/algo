@@ -31,10 +31,11 @@ const add = function (x) {
 
 const addTwo = add(2);
 
-// const sum = addTwo(5);
+const sum1 = addTwo(5);
 const sum = add(5)(2);
 
 console.log(sum);
+console.log(sum1);
 
 var getSpeed = function (distance) {
   return function (time) {

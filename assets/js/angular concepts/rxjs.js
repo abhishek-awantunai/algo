@@ -59,6 +59,9 @@ MergeAll:- It converts a higher order observable to a first order observable whi
 
 */
 
+// RxJS operators facilitate us to change the original observable in some manner and return a new observable.
+
+// Pipes in RXJS are standalone functions that can be used to combine multiple RxJS operators to compose asynchronous operations 
 
 const button = document.getElementById('button');
 console.log(button);

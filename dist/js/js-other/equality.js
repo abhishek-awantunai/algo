@@ -1,0 +1,1 @@
+"use strict";console.log(!0),console.log(!1),console.log(!1),console.log(.5-.4),console.log(!0),console.log(!0),console.log(!0),console.log(!0),console.log(!1);

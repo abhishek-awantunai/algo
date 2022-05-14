@@ -9,6 +9,7 @@ Q1) What are the types of validator functions?
     
     Async validators: 
         - These are the asynchronous functions which take a control instance and return a Promise or Observable that later emits a set of validation errors or null. Also, these functions passed as second argument while instantiating the form control. The main use cases are complex validations like hitting a server to check the availability of a username or email.
+        
     The representation of these validators looks like below
 
     this.myForm = formBuilder.group({

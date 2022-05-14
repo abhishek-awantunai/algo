@@ -2,7 +2,7 @@
 
 Mergemap :-
 
-It is a flattening operator i.e just like other operators it tries to extract values from returned from observables
+It is a flattening operator i.e just like other operators it tries to extract values returned from observables
 
 map + mergeAll = mergeMap 
 

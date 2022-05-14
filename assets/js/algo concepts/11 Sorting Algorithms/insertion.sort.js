@@ -6,12 +6,18 @@
 
 const insertionSortTheArray = (arr) => {
     for (let i = 0; i < arr.length; i++) {
-        for (let j = 0; j < i ; j++) {
-            console.log(i, j);
+        let min = i;
+        for (let j = i; j < arr.length; j++) {
+            if (arr[j] < arr[min]) {
+                min = j;
+            }
         }
+        let temp = arr[i];
+        arr[i] = arr[min];
+        arr[min] = temp;
     }
     return arr;
-}
+};
 
 const arr1 = [13, 12, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 

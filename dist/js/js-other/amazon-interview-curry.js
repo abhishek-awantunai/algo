@@ -1,0 +1,1 @@
+"use strict";var sum=function r(t){return function(u){return r(t+u)}},result=sum(1)(2);console.log(result);

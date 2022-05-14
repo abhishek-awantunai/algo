@@ -3,7 +3,7 @@
 https://www.youtube.com/watch?v=dM04T2-dfhU
 
 
-An angular application consists of components and templates which a browser cannot understand. Therefore, every Angular application needs to be compiled before running inside the browser. The Angular compiler takes in the TS code, compiles it, and then produces some JS code. It is known as AOT compilation and happens only once per occasion per user.
+An angular application consists of components and templates which a browser cannot understand. Therefore, every Angular application needs to be compiled before running inside the browser. The Angular compiler takes in the TS code, compiles it, and then produces some JS code. 
 
 There are two kinds of compilation that Angular provides:
 
@@ -16,7 +16,7 @@ In JIT the application code along with the angular compiler is downloaded by the
 AOT(Ahead-of-Time) compilation: the application compiles during the build time.
 ng build prod ng serve --aot
 
-With AOT we will get the template binging error at build time like misspelling of bind variable and all
+With AOT we will get the template binding error at build time like misspelling of bind variable and all
 
 For Jit compilation the browser needs to download the angular compiler whereas for AOT compilation it does not have to.
 
