@@ -1,1 +1,1 @@
-"use strict";console.log([10,20,30,40,50].indexOf(30)),console.log([{name:"pam"},{name:"kent"}].indexOf({name:"kent"})),console.log("hello world".indexOf("o")),console.log([[1],[2],[3],[4]].indexOf([2]));
+"use strict";console.log([10,20,30,40,50].indexOf(30)),console.log([{name:"pam"},{name:"kent"}].indexOf({name:"kent"})),console.log("hello world".indexOf("o")),console.log([[1],[2],[3],[4]].indexOf([2]));var arr=[1,2,3];arr.length=0,console.log(arr[0]);

@@ -1,121 +1,91 @@
-/**
-  If a function is a method function [ wo function jo object ke key ke andar hota hai  ] then only 
-  `this` inside it will refer to the object associated with it and in all other cases this refers to window object in normal mode and undefined in Strict mode.
-*/
-
-/*
-  When a function is called with “new” keyword, it is known as constructor function. And the value of “this” refers to the newly created instance.
-
-    function Person(fn, ln) {
-    this.first_name = fn;
-    this.last_name = ln;
-    this.displayName = function() {
-        console.log(`Name: ${this.first_name} ${this.last_name}`);
-        console.log(this);
-    }
-    }
-    let person = new Person("Tim", "Horton");
-    person.displayName();  
-    let person2 = new Person("Mary", " Poppins");
-    person2.displayName();
-
-    in arrow functions are completly free functions i.e nothing is binded like this and argunents 
-
-*/
-
-// https://medium.com/better-programming/understanding-the-this-keyword-in-javascript-cb76d4c7c5e8
-
-console.log(this);
+console.log(this);              // window or undefined
 
 function abc() {
-  console.log(this);
+    console.log(this);          // window or undefined
 }
 
 const normal = function () {
-  console.log(this);
+    console.log(this);          // window or undefined
 };
 
 const arrow = () => {
-  console.log(this);
+    console.log(this);          // window or undefined
 };
 
 (function a() {
-  console.log(this);
+    console.log(this);          // window or undefined
 })();
 
 (function () {
-  console.log(this);
+    console.log(this);          // window or undefined
 })();
-
-const obj = {
-  a: "10",
-  methodKey: function () {
-    console.log("methodKey : ", this);
-    function outer() {
-      console.log("outer : ", this);
-    }
-
-    const ancestor = () => {
-      console.log("ancestor : ", this);
-    };
-    outer();
-    ancestor();
-  },
-  method() {
-    console.log("method : ", this);
-  },
-  methodArrow: () => {
-    console.log("methodArrow : ", this);
-    const aaa = () => {
-      console.log("aaa : ", this);
-    };
-    function apple() {
-      console.log("apple : ", this);
-    }
-    apple();
-    aaa();
-  },
-};
 
 abc();
 normal();
 arrow();
+
+const obj = {
+    a: "10",
+    methodKey: function () {
+        console.log("methodKey : ", this);      // obj
+        function outer() {
+            console.log("outer : ", this);      // window
+        }
+
+        const ancestor = () => {
+            console.log("ancestor : ", this);   // obj
+        };
+        outer();
+        ancestor();
+    },
+    method() {
+        console.log("method : ", this);     // obj
+    },
+    methodArrow: () => {
+        console.log("methodArrow : ", this);       // window or undefined
+        const aaa = () => {
+            console.log("aaa : ", this);            // window or undefined
+        };
+        function apple() {
+            console.log("apple : ", this);          // window or undefined
+        }
+        apple();
+        aaa();
+    },
+};
+
+// NOTE: JAHA PE BHI STANDALONE ( MATLAB JO KISI OBJECT KA KEY NA HO ) FUNCTION AAYA MATLAB BHAYA USKE ANDAR KA THIS HOGA UNDEFINED YA WINDOW
+
 obj.methodKey();
 obj.method();
 obj.methodArrow();
 
-/**
-  undefined
-  undefined
-  undefined
-  undefined
-*/
 
 const obj2 = {
-  a: "10",
-  methodKey: function () {
-    console.log(this);
-    (function () {
-      console.log(this);
-    })();
+    a: "10",
+    methodKey: function () {
+        console.log(this);  // obj2
+        (function () {
+            console.log('iife :', this);  // undefined
+        })();
 
-    function sample() {
-      console.log("sample : ", this);
-    }
+        function sample() {
+            console.log("sample : ", this); // undefined
+        }
 
-    const arrr = () => {
-      console.log("arrr : ", this);
-    };
-    arrr();
-    sample();
-  },
-  mehtodArrow: () => {
-    console.log("mehtodArrow : ", this);
-    function kakak() {
-      console.log("kakak : ", this);
-    }
-    kakak();
-  },
+        const arrr = () => {
+            console.log("arrr : ", this);   // obj2
+        };
+        sample();
+        arrr();
+    },
+    mehtodArrow: () => {
+        console.log("mehtodArrow : ", this);    // undefined
+        function kakak() {
+            console.log("kakak : ", this);      // undefined
+        }
+        kakak();
+    },
 };
 
 obj2.methodKey();

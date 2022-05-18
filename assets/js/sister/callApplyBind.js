@@ -1,26 +1,26 @@
 const obj = {
   name: "Abhishek",
-  getBio(num1, num2) {
-    // console.log(
-    //   "My name is " +
-    //     this.name +
-    //     " and age is " +
-    //     this.age +
-    //     " and i do hava a " +
-    //     this.color +
-    //     " mom"
-    // );
+  getBio() {
+    console.log(
+      "My name is " +
+        this.name +
+        " and age is " +
+        this.age +
+        " and i do hava a " +
+        this.color +
+        " mom"
+    );
     console.log(this);
   },
 };
 
 // Normal call
-obj.getBio(12, 13);
+obj.getBio();
 
 /**
   With call we use method invocation to change `this` inside this function and parameters are 
-  passed comma seperated. 
-  In both call and apply method also gets called but in bind only this gets attched but method 
+  passed comma separated. 
+  In both call and apply method also gets called but in bind only this gets attached but method 
   is not called
 */
 

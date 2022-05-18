@@ -1,1 +1,1 @@
-"use strict";!function(){a=10}(),a=20,console.log(a);var a=10;console.log(a);
+"use strict";console.log(function(o){return o*(a=10)}(4)),a=20,console.log(a);var a=10;console.log(a);

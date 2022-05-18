@@ -1,1 +1,1 @@
-"use strict";var insertionSortTheArray=function(r){for(var o=0;o<r.length;o++)for(var n=0;n<o;n++)console.log(o,n);return r},arr1=[13,12,1,2,3,4,5,6,7,8,9,10,11];console.log(insertionSortTheArray(arr1));
+"use strict";var insertionSortTheArray=function(r){for(var n=0;n<r.length;n++){for(var o=n,t=n;t<r.length;t++)r[t]<r[o]&&(o=t);var e=r[n];r[n]=r[o],r[o]=e}return r},arr1=[13,12,1,2,3,4,5,6,7,8,9,10,11];console.log(insertionSortTheArray(arr1));

@@ -6,3 +6,13 @@ function logNumber() {
 }
 
 logNumber();
+
+
+var num = 50;
+
+function logVarNumber() {
+  console.log(num);
+  var num = 10;
+}
+
+logVarNumber();

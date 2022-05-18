@@ -14,7 +14,7 @@ console.log("==================================");
 
 console.log(7 == "7"); // true - value check
 console.log(7.0 == 7); // true - value check
-console.log(7.0 === 7); // true - only absolute value cheked i.e 7 and both is of number type
+console.log(7.0 === 7); // true - only absolute value checked i.e 7 and both is of number type
 console.log(7 == 8 - 1); // true
 console.log(7 === 8 - 1); // true
 console.log(7 == 8.1 - 1.1); // true

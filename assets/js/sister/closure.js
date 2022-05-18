@@ -4,6 +4,8 @@ Closures are basically, the inner function having access to the variables in the
 
 Closures are functions with preserve data
 
+A function bundled together with its lexical scope forms closure
+
 */
 
 const globalVariable = "Kattapa";

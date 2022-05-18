@@ -5,5 +5,5 @@ const c = { name: "c" };
 a[b] = 200; // a = {[object Object]: 200}
 a[c] = 400; // a = {[object Object]: 400}
 
-console.log(a);
+console.log(a); // [object Object]: 400}
 console.log(a[b]); // 400

@@ -8,10 +8,10 @@ console.log(color); // blue
   
   Hoisting is JavaScript's default behavior of moving all declarations to the top of the current scope (to the top of the current script or the current function)
 
-  A function created with Function declaration is also availabe before its declaration.
+  A function created with Function declaration is also available before its declaration.
   i.e we can call getSum(2,3) over here but getExpSum(2,3) will throw error over here because
   getExpSum is undefined over here and  undefined is not a function.
-  And getExpSum becomes undefined due to hoistind of variable
+  And getExpSum becomes undefined due to hoisted of variable
 */
 
 // Function Declaration

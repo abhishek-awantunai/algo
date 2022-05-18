@@ -23,3 +23,4 @@ var mycar = {
 };
 
 mycar.logColor();
+// self always denotes to window
