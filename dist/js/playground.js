@@ -1,1 +1,1 @@
-"use strict";var isPallindrome=function(e){return 0===e.length||e===reverseString(e)},reverseString=function e(r){if(0===r.length)return"";r=[].map.call(r,function(e){return e});return r.pop()+e(r)};console.log(isPallindrome("hellolleh"));
+"use strict";var solution=function(t){return function(n){var o=0;if(o<n)return t(o)?o:5}};console.log(solution(11,9));

@@ -13,18 +13,20 @@ Whats the purpose of at symbol in the Redux connect decorator?
     import { connect } from 'react-redux'
 
     function mapStateToProps(state) {
-    return { todos: state.todos }
+        return { todos: state.todos }
     }
 
     function mapDispatchToProps(dispatch) {
-    return { actions: bindActionCreators(actionCreators, dispatch) }
+        return { actions: bindActionCreators(actionCreators, dispatch) }
     }
 
     class MyApp extends React.Component {
-    // ...define your main app here
+        // ...define your main app here
     }
 
     export default connect(mapStateToProps, mapDispatchToProps)(MyApp)
+    
+    
     With decorator:
 
     import React from 'react'
@@ -33,16 +35,16 @@ Whats the purpose of at symbol in the Redux connect decorator?
     import { connect } from 'react-redux'
 
     function mapStateToProps(state) {
-    return { todos: state.todos }
+        return { todos: state.todos }
     }
 
     function mapDispatchToProps(dispatch) {
-    return { actions: bindActionCreators(actionCreators, dispatch) }
+        return { actions: bindActionCreators(actionCreators, dispatch) }
     }
 
     @connect(mapStateToProps, mapDispatchToProps)
     export default class MyApp extends React.Component {
-    // ...define your main app here
+        // ...define your main app here
     }
     The above examples are almost similar except the usage of decorator. The decorator syntax isn't built into any JavaScript runtimes yet, and is still experimental and subject to change. You can use babel for the decorators support.
 

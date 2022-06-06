@@ -1,12 +1,14 @@
-const isPallindrome = (str) => {
-    if (str.length === 0) return true;
-    return str === reverseString(str);
-}
+var solution = function(isBadVersion) {
 
-const reverseString = (str) => {
-    if (str.length === 0) return '';
-    const stringInArray = [].map.call(str, (char) => char);
-    return stringInArray.pop() + reverseString(stringInArray);
-}
+    return function(n) {
+        for(let i = 0;i < n; i++) {
+            if (isBadVersion(i)) {
+                return i;
+            } else {
+                return 5;
+            }
+        }
+    };
+};
 
-console.log(isPallindrome('hellolleh'));
+console.log(solution(11, 9));
