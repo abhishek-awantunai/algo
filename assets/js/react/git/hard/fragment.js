@@ -6,9 +6,9 @@ What are fragments?
     render() {
         return (
             <React.Fragment>
-            <ChildA />
-            <ChildB />
-            <ChildC />
+                <ChildA />
+                <ChildB />
+                <ChildC />
             </React.Fragment>
         )
     }

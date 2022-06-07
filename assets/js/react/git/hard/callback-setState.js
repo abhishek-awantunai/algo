@@ -1,6 +1,8 @@
 /*
 What is the purpose of callback function as an argument of setState()?
-    The callback function is invoked when setState finished and the component gets rendered. Since setState() is asynchronous the callback function is used for any post action.
+    - setState function takes an optional callback parameter that can be used to make updates after the state is changed.This function will get called once the state has been updated and the callback will receive the updated value of the state.
+
+    - The callback function is invoked when setState finished and the component gets rendered. Since setState() is asynchronous the callback function is used for any post action.
 
     Note: It is recommended to use lifecycle method rather than this callback function.
 

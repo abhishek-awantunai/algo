@@ -40,9 +40,9 @@ How to perform automatic redirect after login?
     export default class LoginComponent extends Component {
         render() {
             if (this.state.isLoggedIn === true) {
-            return <Redirect to="/your/redirect/page" />
+                return <Redirect to="/your/redirect/page" />
             } else {
-            return <div>{'Login Please'}</div>
+                return <div>{'Login Please'}</div>
             }
         }
     }

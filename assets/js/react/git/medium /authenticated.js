@@ -16,7 +16,7 @@ How do you make sure that user remains authenticated on page refresh while using
         ReactDOM.render(
         <React.StrictMode>
             <AuthState>
-            <App />
+                <App />
             </AuthState>
         </React.StrictMode>,
         document.getElementById('root')
