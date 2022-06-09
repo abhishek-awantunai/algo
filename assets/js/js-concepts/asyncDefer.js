@@ -6,7 +6,6 @@ ASYNC and DEFER :-
 
 1) Normal Script Load
 
-
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/ajax.js"></script>
 
 HTML LOAD :-    ---------------1------------------                              --------------4--------------

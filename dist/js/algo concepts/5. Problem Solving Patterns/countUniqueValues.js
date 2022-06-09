@@ -1,0 +1,1 @@
+"use strict";var countUniqueValues=function(r){for(var n=0,e=0;e<r.length;e++)r[e]!==r[n]&&(r[++n]=r[e]);return parseInt(n)+1},arr=[1,1,1,2,2,2,2,3,3,3,4,4,4,5,5,6,6,7,7,7,7,8,8,8,8,8,9];console.log(countUniqueValues(arr));

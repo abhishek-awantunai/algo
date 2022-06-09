@@ -1,0 +1,1 @@
+"use strict";var maxSumOfNConsecutiveNumber=function(r,e){for(var u=0,n=[],o=0;o<r.length;o++)for(var a=0,m=[],s=0;s<e;s++)a+=r[o+s],m.push(o+s),u<a&&(u=a,n=m);return{sum:u,index:n}},arr=[1,2,3,4,5,6,3,2,3,3,4,5,4,3,2,3,2,4,3,3];console.log(maxSumOfNConsecutiveNumber(arr,5));

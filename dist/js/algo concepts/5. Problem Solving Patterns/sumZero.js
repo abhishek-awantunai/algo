@@ -1,0 +1,1 @@
+"use strict";var sumZero=function(r){console.log(r);for(var e=0,o=r.length-1;e<o;)if(0<r[e]+r[o])o--;else{if(!(r[e]+r[o]<0))return[e,o];e++}return[-1,-1]},arr=[-12,-3,-2,-1,0,2,8,9,12];console.log(sumZero(arr));
