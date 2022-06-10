@@ -1,28 +1,54 @@
-const factorial = (num) => {
-    if (num === 1) return 1;
-
-    return num*factorial(num-1);
-}
-
-console.log(factorial(5));
-
-
-const sumOfArrayByRecursion = (arr) => {
-    if (!arr.length) return 0;
-
-    return (arr.pop() + sumOfArrayByRecursion(arr));
-}
-
-// const  arr = [12, 3, 4, 5, 55, 53, 233, 43, 433, 34, 23];
-const  arr = [1, 2, 3, 4, 5];
-console.log(sumOfArrayByRecursion(arr));
+const cleanRoom = () => new Promise((resolve, reject) => {
+    const isClean = true;
+    setTimeout(() => {
+        if (isClean) {
+            resolve('room is cleaned');
+        } else {
+            reject('err aaya');
+        }
+    }, 1000);
+})
 
 
-const reverseAString = (str) => {
-    if (str.length === 0) return '';
-    const strAsArray = str.split('');
+const throwGarbage = () => new Promise((resolve, reject) => {
+    const garbageThrown = true;
+    setTimeout(() => {
+        if (garbageThrown) {
+            resolve('Garbage is thrown');
+        } else {
+            reject('err aaya');
+        }
+    }, 5000);
+})
 
-    return (strAsArray.pop().toString() + reverseAString(strAsArray.join('')));
-}
 
-console.log(reverseAString('this is a sample string'));
+const winIceCream = () => new Promise((resolve, reject) => {
+    const iceCreamShopOpen = true;
+    setTimeout(() => {
+        if (iceCreamShopOpen) {
+            resolve('Bought Ice Cream');
+        } else {
+            reject('err aaya');
+        }
+    }, 10000);
+})
+
+
+// cleanRoom().then(res => {
+//     console.log(res);
+//     return throwGarbage();
+// }).then(res => {
+//     console.log(res);
+//     return winIceCream();
+// }).then(res => {
+//     console.log(res);
+//     console.log('all tasks finished');
+// }).catch(err => {
+//     console.log(err);
+// })
+
+Promise.all([cleanRoom(), throwGarbage(), winIceCream()]).then(() => {
+    console.log('all of them is finished');
+}).catch(err => {
+    console.log(err);
+});

@@ -47,4 +47,49 @@ How to make AJAX call and in which component lifecycle methods should I make an 
         }
     }
 
+    For Functional Components
+
+    import React, { Fragment, useEffect, useState } from 'react';
+    import styled from 'styled-components';
+    import axios from 'axios';
+
+    const Ul = styled.ul`
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+    `
+        
+        const Li = styled.li`
+        text-align: left;
+        margin: 0px;
+        padding: 7px 20px;
+        line-height: 20px;
+    `
+
+    const Ajax = () => {
+        const [posts, setPost] = useState([]);
+
+        useEffect(() => {
+            getListOfPosts();
+        }, []);
+        
+        const getListOfPosts = async () => {
+            const data = await axios.get('https://jsonplaceholder.typicode.com/posts');
+            setPost(data.data);
+        }
+
+        return (
+            <Fragment>
+                <h1>Ajax Component</h1>
+                <Ul>
+                    { posts && posts.map(post => {
+                        return ( <Li key={post.id}>{ post.title }</Li> )
+                    }) }
+                </Ul>
+            </Fragment>
+        )
+    }
+
+    export default Ajax;
+
 */

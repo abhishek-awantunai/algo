@@ -4,14 +4,14 @@ Why should component names start with capital letter?
     If you are rendering your component using JSX, the name of that component has to begin with a capital letter otherwise React will throw an error as an unrecognized tag. This convention is because only HTML elements and SVG tags can begin with a lowercase letter.
 
     class SomeComponent extends Component {
-    // Code goes here
+        // Code goes here
     }
     You can define component class which name starts with lowercase letter, but when it's imported it should have capital letter. Here lowercase is fine:
 
     class myComponent extends Component {
-    render() {
-        return <div />
-    }
+        render() {
+            return <div />
+        }
     }
 
     export default myComponent

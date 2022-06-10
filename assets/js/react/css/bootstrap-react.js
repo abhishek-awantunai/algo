@@ -5,7 +5,8 @@ How to add Bootstrap to a react application?
 
         Using the Bootstrap CDN: 
             - This is the easiest way to add bootstrap. Add both bootstrap CSS and JS resources in a head tag.
-        Bootstrap as Dependency: 
+        
+            Bootstrap as Dependency: 
             - If you are using a build tool or a module bundler such as Webpack, then this is the preferred option for adding Bootstrap to your React application
                 - npm install bootstrap
     

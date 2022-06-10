@@ -1,6 +1,10 @@
 /*
 
 What is diffing algorithm?
+    Diffing is a heuristic algorithm based on two assumptions: Two elements of different types will produce different trees. The developer can hint at what elements will remain stable across renders with a key prop. (This is why React is always warning us to include keys in our props).
+
+    React uses a heuristic algorithm called the Diffing algorithm for reconciliation based on these assumptions: Elements of different types will produce different trees. We can set which elements are static and do not need to be checked
+
     React needs to use algorithms to find out how to efficiently update the UI to match the most recent tree. The diffing algorithms is generating the minimum number of operations to transform one tree into another. However, the algorithms have a complexity in the order of O(n3) where n is the number of elements in the tree.
 
     In this case, displaying 1000 elements would require in the order of one billion comparisons. This is far too expensive. Instead, React implements a heuristic O(n) algorithm based on two assumptions:
